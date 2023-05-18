@@ -1,0 +1,20 @@
+.navbar{
+    height: 60px;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: center;
+    .nav-link{
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(248, 244, 244);
+        color: #000;
+        margin: 5px;
+        border-radius: 1rem;
+        width: 100px;
+        &:hover{
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}

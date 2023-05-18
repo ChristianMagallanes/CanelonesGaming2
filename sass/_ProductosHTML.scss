@@ -1,0 +1,21 @@
+.ContainerProductos{
+    .ProductosMouse{
+        height: 80vh;
+    }
+    .ProductosTeclados{
+        height: 80vh;
+    }
+    height: 100vh;
+    .TitleMouse{
+        background-color: aqua;
+        padding: 20px;
+        text-align: center;
+        font-size: 60px;
+    }
+    .TitleTeclados{
+        background-color: red;
+        padding: 20px;
+        text-align: center;
+        font-size: 70px;
+    }
+}

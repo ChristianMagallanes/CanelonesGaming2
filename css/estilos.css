@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Exo+2&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.navbar-collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.navbar-collapse .nav-link {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(248, 244, 244);
+  color: #000;
+  margin: 5px;
+  border-radius: 1rem;
+  width: 100px;
+}
+.navbar-collapse .nav-link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.HeaderGrid {
+  display: grid;
+  grid-template-columns: 4fr 2fr 2fr;
+  grid-template-rows: 4fr 2fr;
+}
+.HeaderGrid .HeaderGridBienvenida {
+  text-align: center;
+  margin-top: 30%;
+  grid-column: 2/2;
+  grid-row: 3/1;
+}
+.HeaderGrid .HeaderGridBienvenida h1 {
+  margin-top: 200px;
+  font-size: 70px;
+}
+.HeaderGrid .HeaderGridBienvenida p {
+  font-size: 30px;
+}
+.HeaderGrid .HeaderGridBienvenida .BtnHeader {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #1100ff;
+  border-radius: 1rem;
+  padding: 10px;
+}
+.HeaderGrid .HeaderGridimg {
+  margin: 80px;
+  grid-column: 1/1;
+  grid-row: 1/2;
+}
+.HeaderGrid .HeaderGridimg img {
+  width: 90%;
+}
+.HeaderGrid .HeaderGridinfo {
+  text-align: center;
+  margin-top: 30%;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+.HeaderGrid .HeaderGridinfo h2 {
+  font-size: 60px;
+}
+.HeaderGrid .HeaderGridinfo p {
+  font-size: 30px;
+}
+.HeaderGrid .HeaderGridinfo .BtnHeader {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff0000;
+  border-radius: 1rem;
+  padding: 10px;
+}
+.HeaderGrid .HeaderGridimg1 {
+  height: 100vh;
+  grid-column: 1/1;
+  grid-row: 2/3;
+}
+.HeaderGrid .HeaderGridimg1 img {
+  width: 80%;
+}
+
+.HeaderProductos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+.HeaderProductos .BtnHeader {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #ff0000;
+  border-radius: 1rem;
+  padding: 10px;
+  margin: 20px;
+}
+
+.cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.cards-wrapper .card {
+  margin: 10px;
+}
+
+.ContainerProductos {
+  height: 100vh;
+}
+.ContainerProductos .ProductosMouse {
+  height: 80vh;
+}
+.ContainerProductos .ProductosTeclados {
+  height: 80vh;
+}
+.ContainerProductos .TitleMouse {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+.ContainerProductos .TitleTeclados {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  font-size: 70px;
+}
+
+.HomeContent {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(4, 2fr);
+  background-image: url(../test.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  gap: 20px;
+  height: 100vh;
+}
+.HomeContent .HomeTitle {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  font-size: 60px;
+}
+.HomeContent .Data1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
+  margin: 20px;
+  height: 500px;
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.HomeContent .Data1 .DivData {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+.HomeContent .Data1 .DivData p {
+  padding: 10px;
+  font-size: 20px;
+}
+.HomeContent .Data1 img {
+  padding: 20px;
+  width: 100%;
+}
+.HomeContent .Data2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  height: 500px;
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+.HomeContent .Data2 .DivData {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+.HomeContent .Data2 .DivData p {
+  padding: 20px;
+  font-size: 20px;
+}
+.HomeContent .Data2 img {
+  width: 100%;
+  height: 345px;
+  padding: 20px;
+}
+.HomeContent .Data3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  height: 500px;
+  grid-column: 3/3;
+  grid-row: 2/3;
+}
+.HomeContent .Data3 .DivData {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+.HomeContent .Data3 .DivData p {
+  padding: 20px;
+  font-size: 20px;
+}
+.HomeContent .Data3 img {
+  width: 100%;
+  height: 345px;
+  padding: 20px;
+}
+.HomeContent .Data4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  height: 500px;
+  grid-column: 4/4;
+  grid-row: 2/3;
+}
+.HomeContent .Data4 .DivData {
+  width: 100%;
+  height: 100px;
+  background-color: aqua;
+}
+.HomeContent .Data4 .DivData p {
+  padding: 20px;
+  font-size: 20px;
+}
+.HomeContent .Data4 img {
+  width: 100%;
+  height: 345px;
+  padding: 20px;
+}
+
+.HomeContent2 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(4, 2fr);
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../assets/porquelejirnos.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.HomeContent2 .HomeTitle2 {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.HomeContent2 .Data5 {
+  background-color: #fff;
+  grid-row: 2/4;
+  grid-column: 2/4;
+}
