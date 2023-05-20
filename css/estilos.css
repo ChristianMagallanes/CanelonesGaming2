@@ -6,10 +6,6 @@
   font-family: "Exo 2", sans-serif;
 }
 
-.navbar {
-  height: 60px;
-}
-
 .navbar-collapse {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,6 +13,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 20px 0px 20px 20px;
 }
 .navbar-collapse .nav-link {
   font-size: 20px;
@@ -25,7 +22,6 @@
   color: #000;
   margin: 5px;
   border-radius: 1rem;
-  width: 100px;
 }
 .navbar-collapse .nav-link:hover {
   color: #fff;
@@ -109,16 +105,47 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 50vh;
 }
-.HeaderProductos .BtnHeader {
+
+.HeaderJuegos {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.HeaderJuegos .HeaderContentJuegos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.HeaderJuegos .HeaderContentJuegos .BtnHeader {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
   background-color: #ff0000;
   border-radius: 1rem;
   padding: 10px;
-  margin: 20px;
+}
+
+.HeaderContacto {
+  height: 50vh;
 }
 
 .cards-wrapper {
@@ -133,14 +160,15 @@
   margin: 10px;
 }
 
-.ContainerProductos {
-  height: 100vh;
-}
 .ContainerProductos .ProductosMouse {
-  height: 80vh;
+  height: 60vh;
 }
-.ContainerProductos .ProductosTeclados {
-  height: 80vh;
+.ContainerProductos .ProductosMouse .card-body p {
+  font-size: 20px;
+}
+.ContainerProductos .ProductosMouse .card-body p span {
+  color: rgb(255, 0, 0);
+  font-size: 28px;
 }
 .ContainerProductos .TitleMouse {
   background-color: aqua;
@@ -148,11 +176,43 @@
   text-align: center;
   font-size: 60px;
 }
-.ContainerProductos .TitleTeclados {
+
+.ContainerProductos2 .ProductosTeclados {
+  height: 60vh;
+}
+.ContainerProductos2 .TitleTeclados {
   background-color: red;
   padding: 20px;
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
+}
+
+.ContainerProductos3 .ProductosAudifonos {
+  height: 60vh;
+}
+.ContainerProductos3 .TitleAudifonos {
+  background-color: green;
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*Juegoshtml */
+.ContainerProductosJuegos .ProductosJuegos {
+  height: 60vh;
+}
+.ContainerProductosJuegos .ProductosJuegos .card-body p {
+  font-size: 20px;
+}
+.ContainerProductosJuegos .ProductosJuegos .card-body p span {
+  color: rgb(255, 0, 0);
+  font-size: 28px;
+}
+.ContainerProductosJuegos .TitleJuegos {
+  background-color: aqua;
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
 }
 
 .HomeContent {
@@ -235,7 +295,6 @@
 }
 .HomeContent .Data2 img {
   width: 100%;
-  height: 345px;
   padding: 20px;
 }
 .HomeContent .Data3 {
@@ -268,7 +327,6 @@
 }
 .HomeContent .Data3 img {
   width: 100%;
-  height: 345px;
   padding: 20px;
 }
 .HomeContent .Data4 {
@@ -301,7 +359,6 @@
 }
 .HomeContent .Data4 img {
   width: 100%;
-  height: 345px;
   padding: 20px;
 }
 
@@ -324,7 +381,144 @@
   grid-row: 1/2;
 }
 .HomeContent2 .Data5 {
-  background-color: #fff;
+  background-color: #f3f3f3;
   grid-row: 2/4;
   grid-column: 2/4;
+  border-radius: 1rem;
+}
+.HomeContent2 .Data5 .fa-check {
+  margin: 10px;
+  margin-top: 16px;
+  font-size: 24px;
+}
+.HomeContent2 .Data5 .fa-check span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.ContainerEquipo1 {
+  background-color: rgb(188, 197, 197);
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+}
+.ContainerEquipo1 .Equipo1 {
+  grid-column: 4/4;
+  grid-row: 1/4;
+}
+.ContainerEquipo1 .Equipo1 .Equipo {
+  margin-top: 70px;
+  height: 700px;
+}
+.ContainerEquipo1 .Caracteristicas {
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+.ContainerEquipo1 .Caracteristicas h2 {
+  font-size: 78px;
+}
+.ContainerEquipo1 .Caracteristicas p {
+  font-size: 30px;
+}
+
+.ContainerEquipo2 {
+  background-color: rgb(188, 197, 197);
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+}
+.ContainerEquipo2 .Equipo2 {
+  grid-column: 1/1;
+  grid-row: 1/4;
+}
+.ContainerEquipo2 .Equipo2 .Equipo {
+  margin-top: 70px;
+  height: 700px;
+}
+.ContainerEquipo2 .Caracteristicas2 {
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+.ContainerEquipo2 .Caracteristicas2 h2 {
+  font-size: 78px;
+}
+.ContainerEquipo2 .Caracteristicas2 p {
+  font-size: 30px;
+}
+
+.ContainerEquipo3 {
+  background-color: rgb(188, 197, 197);
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+}
+.ContainerEquipo3 .Equipo3 {
+  grid-column: 1/1;
+  grid-row: 1/4;
+}
+.ContainerEquipo3 .Equipo3 .Equipo {
+  margin-top: 70px;
+  height: 700px;
+}
+.ContainerEquipo3 .Caracteristicas3 {
+  text-align: center;
+  grid-column: 2/4;
+  grid-row: 2/2;
+}
+.ContainerEquipo3 .Caracteristicas3 h2 {
+  font-size: 78px;
+}
+.ContainerEquipo3 .Caracteristicas3 p {
+  font-size: 30px;
+}
+
+.MainContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #f2f2f2;
+  width: 70%;
+  height: 100%;
+  padding: 20px;
+}
+form h2 {
+  text-align: center;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+form input[type=submit] {
+  background-color: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(252, 253, 252);
+  height: 300px;
 }

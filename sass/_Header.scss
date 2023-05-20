@@ -66,14 +66,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 50vh;
+    
+}
+
+.HeaderJuegos{
     height: 100vh;
-    .BtnHeader{
-        text-decoration: none;
-        color: #fff;
-        font-size: 20px;
-        background-color: #ff0000;
-        border-radius: 1rem;
-        padding: 10px;
-        margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .HeaderContentJuegos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .BtnHeader{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            background-color: #ff0000;
+            border-radius: 1rem;
+            padding: 10px;
+        }
     }
+}
+.HeaderContacto{
+    height: 50vh;
 }

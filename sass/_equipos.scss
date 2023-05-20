@@ -1,0 +1,75 @@
+.ContainerEquipo1{
+    background-color: rgb(188, 197, 197);
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(3,2fr);
+    .Equipo1{
+        grid-column: 4/4;
+        grid-row: 1/4;
+        .Equipo{
+            margin-top: 70px;
+            height: 700px;
+        }
+    }
+    .Caracteristicas{
+        text-align: center;
+        grid-column: 2/4;
+        grid-row: 2/2;
+        h2{
+            font-size: 78px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
+.ContainerEquipo2{
+    background-color: rgb(188, 197, 197);
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(3,2fr);
+    .Equipo2{
+        grid-column: 1/1;
+        grid-row: 1/4;
+        .Equipo{
+            margin-top: 70px;
+            height: 700px;
+        }
+    }
+    .Caracteristicas2{
+        text-align: center;
+        grid-column: 2/4;
+        grid-row: 2/2;
+        h2{
+            font-size: 78px;
+        }
+        p{
+            font-size: 30px;
+        }
+    }
+}
+.ContainerEquipo3{
+    background-color: rgb(188, 197, 197);
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-template-rows: repeat(3,2fr);
+    .Equipo3{
+        grid-column: 1/1;
+        grid-row: 1/4;
+        .Equipo{
+            margin-top: 70px;
+            height: 700px;            
+        }
+    }
+    .Caracteristicas3{
+        text-align: center;
+        grid-column: 2/4;
+        grid-row: 2/2;
+        h2{
+            font-size: 78px;
+            }
+            p{
+                font-size: 30px;
+                }
+    }
+}
