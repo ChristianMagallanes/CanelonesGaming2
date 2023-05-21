@@ -1029,7 +1029,6 @@ footer {
     background-color: #1100ff;
     border-radius: 1rem;
     padding: 10px;
-    margin-left: 10%;
   }
   .HeaderGrid .HeaderGridimg {
     margin: 80px;
@@ -1046,7 +1045,7 @@ footer {
     margin-top: 30%;
     grid-column: 1/2;
     grid-row: 2/2;
-    margin-top: 300px;
+    margin-top: 240px;
   }
   .HeaderGrid .HeaderGridinfo h2 {
     margin-top: 120px;
@@ -1064,14 +1063,13 @@ footer {
     padding: 10px;
   }
   .HeaderGrid .HeaderGridimg1 {
-    height: 100vh;
     grid-column: 1/1;
     grid-row: 2/2;
   }
   .HeaderGrid .HeaderGridimg1 img {
     margin-top: 120px;
     margin-left: 15%;
-    width: 70%;
+    width: 230px;
   }
   .HeaderProductos {
     display: -webkit-box;

@@ -469,7 +469,7 @@
 
 @media screen and (max-width: 425px){
       /*Todos los headers*/
-    .HeaderGrid{
+      .HeaderGrid{
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-template-rows:  1fr 1fr ;
@@ -496,7 +496,7 @@
                 background-color: #1100ff;
                 border-radius: 1rem;
                 padding: 10px;
-                margin-left: 10%;
+               
             }
         }
         .HeaderGridimg{
@@ -515,7 +515,7 @@
             margin-top: 30%;
             grid-column: 1/2;
             grid-row: 2/2;
-            margin-top: 300px;
+            margin-top: 240px;
             h2{
                 margin-top: 120px;
                 font-size: 50px;
@@ -530,16 +530,17 @@
                 background-color: #ff0000;
                 border-radius: 1rem;
                 padding: 10px;
+                
             }
         }
         .HeaderGridimg1{
-            height: 100vh;
+            
             grid-column: 1/1;
             grid-row: 2/2;
             img{
                 margin-top: 120px;
                 margin-left: 15%;
-                width: 70%;
+                width: 230px;
             }
         }
     }
