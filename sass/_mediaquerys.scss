@@ -885,6 +885,8 @@
             .card-body{
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 width: 100%;
                 .btn{
                     width: 100%;
@@ -900,6 +902,7 @@
         
         .card-body p{
             font-size: 15px;
+            text-align: center;
             span{
                 color: rgb(255, 0, 0);
                 font-size: 20px;
