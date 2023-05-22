@@ -1021,27 +1021,43 @@
 /*Juegoshtml */
 
 .ContainerProductosJuegos{
+    
     .cards-wrapper{
-        width: 350px;
-        height:350px;
-        display:flex;
-        justify-content: center;
+      
+        padding: 0px;
+        width: 300px;
+        height:100%;
+      
         .card{
-            margin: 10px;
-            width: 0;
-            height: 300px;
+            margin: 3px;
+            width:300px;
+            height: 320px;
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                .btn{
+                    width: 100%;
+                }
+            }
         }
     }
     .carousel-dark{
-        padding: 60px;
-     }
+       padding: 0px;
+    }
     .ProductosJuegos{
-        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         .card-body p{
             font-size: 15px;
+            text-align: center;
             span{
                 color: rgb(255, 0, 0);
-                font-size: 28px;
+                font-size: 20px;
             }
         }
     }
@@ -1049,6 +1065,6 @@
         background-color: aqua;
         padding: 20px;
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
     }
 }

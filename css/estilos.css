@@ -1584,36 +1584,59 @@ footer {
 
 /*Juegoshtml */
 .ContainerProductosJuegos .cards-wrapper {
-  width: 350px;
-  height: 350px;
+  padding: 0px;
+  width: 300px;
+  height: 100%;
+}
+.ContainerProductosJuegos .cards-wrapper .card {
+  margin: 3px;
+  width: 300px;
+  height: 320px;
+}
+.ContainerProductosJuegos .cards-wrapper .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.ContainerProductosJuegos .cards-wrapper .card .card-body .btn {
+  width: 100%;
+}
+.ContainerProductosJuegos .carousel-dark {
+  padding: 0px;
+}
+.ContainerProductosJuegos .ProductosJuegos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-.ContainerProductosJuegos .cards-wrapper .card {
-  margin: 10px;
-  width: 0;
-  height: 300px;
-}
-.ContainerProductosJuegos .carousel-dark {
-  padding: 60px;
-}
-.ContainerProductosJuegos .ProductosJuegos {
-  height: 60vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .ContainerProductosJuegos .ProductosJuegos .card-body p {
   font-size: 15px;
+  text-align: center;
 }
 .ContainerProductosJuegos .ProductosJuegos .card-body p span {
   color: rgb(255, 0, 0);
-  font-size: 28px;
+  font-size: 20px;
 }
 .ContainerProductosJuegos .TitleJuegos {
   background-color: aqua;
   padding: 20px;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
 }
