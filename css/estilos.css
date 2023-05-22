@@ -1408,12 +1408,9 @@ footer {
   }
 }
 /*=========Productos y juegos html ===========*/
-.ContainerProductos {
-  height: 80vh;
-}
 .ContainerProductos .cards-wrapper {
-  padding: 60px;
-  width: 110%;
+  padding: 0px;
+  width: 300px;
   height: 100%;
 }
 .ContainerProductos .cards-wrapper .card {
@@ -1444,7 +1441,7 @@ footer {
   padding: 0px;
 }
 .ContainerProductos .ProductosMouse {
-  height: 60vh;
+  margin: 50px;
 }
 .ContainerProductos .ProductosMouse .card-body p {
   font-size: 15px;

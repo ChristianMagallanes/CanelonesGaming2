@@ -871,11 +871,11 @@
 
 /*=========Productos y juegos html ===========*/
 .ContainerProductos{
-    height: 80vh;
+    
     .cards-wrapper{
-        padding: 60px;
-       
-        width: 110%;
+      
+        padding: 0px;
+        width: 300px;
         height:100%;
       
         .card{
@@ -898,7 +898,7 @@
        padding: 0px;
     }
     .ProductosMouse{
-        height: 60vh;
+        margin: 50px;
         
         .card-body p{
             font-size: 15px;
