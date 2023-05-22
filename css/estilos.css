@@ -1413,7 +1413,7 @@ footer {
 }
 .ContainerProductos .cards-wrapper {
   padding: 60px;
-  width: 100%;
+  width: 102%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1424,8 +1424,8 @@ footer {
 }
 .ContainerProductos .cards-wrapper .card {
   margin: 3px;
-  width: 0;
-  height: 300px;
+  width: 100%;
+  height: 320px;
 }
 .ContainerProductos .cards-wrapper .card .card-body {
   display: -webkit-box;
@@ -1435,7 +1435,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 400px;
+  width: 100%;
 }
 .ContainerProductos .cards-wrapper .card .card-body .btn {
   width: 100px;
