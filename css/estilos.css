@@ -1010,7 +1010,6 @@ footer {
   .HeaderGrid .HeaderGridBienvenida {
     text-align: center;
     margin-top: 30%;
-    margin-left: 10%;
     grid-column: 1/25;
     grid-row: 1/2;
   }
