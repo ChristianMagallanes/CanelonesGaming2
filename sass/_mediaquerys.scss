@@ -784,23 +784,23 @@
         grid-template-rows: repeat(2,1fr);
         height: 50vh;
         .Equipo1{
-            grid-column: 4/4;
+            grid-column: 2/3;
             grid-row: 1/2;
             .Equipo{
-                margin-top: 70px;
-                height: 400px;
+                margin-top: 140px;
+                height: 200px;
             }
         }
         .Caracteristicas{
             margin-top: 150px;
             text-align: center;
-            grid-column: 1/3;
+            grid-column: 1/2;
             grid-row: 1/2;
             h2{
-                font-size: 38px;
+                font-size: 24px;
             }
             p{
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
@@ -814,8 +814,8 @@
             grid-column: 1/1;
             grid-row: 1/4;
             .Equipo{
-                margin-top: 70px;
-                height: 400px;
+                margin-top: 150px;
+                height: 180px;
             }
         }
         .Caracteristicas2{
@@ -823,11 +823,12 @@
             grid-column: 2/4;
             grid-row: 1/2;
             margin-top: 150px;
+            
             h2{
-                font-size: 38px;
+                font-size: 24px;
             }
             p{
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
