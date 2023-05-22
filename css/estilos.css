@@ -1466,75 +1466,117 @@ footer {
   font-size: 40px;
 }
 
-.ContainerProductos2 {
-  height: 50vh;
-}
 .ContainerProductos2 .cards-wrapper {
-  width: 450px;
-  height: 350px;
+  padding: 0px;
+  width: 300px;
+  height: 100%;
+}
+.ContainerProductos2 .cards-wrapper .card {
+  margin: 3px;
+  width: 300px;
+  height: 320px;
+}
+.ContainerProductos2 .cards-wrapper .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.ContainerProductos2 .cards-wrapper .card .card-body .btn {
+  width: 100%;
+}
+.ContainerProductos2 .carousel-dark {
+  padding: 0px;
+}
+.ContainerProductos2 .ProductosTeclados {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.ContainerProductos2 .cards-wrapper .card {
-  margin: 3px;
-  width: 0;
-  height: 300px;
+.ContainerProductos2 .ProductosTeclados .card-body p {
+  font-size: 15px;
+  text-align: center;
 }
-.ContainerProductos2 .cards-wrapper .card .card-body {
-  width: 400px;
-}
-.ContainerProductos2 .cards-wrapper .card .card-body .btn {
-  width: 100px;
-}
-.ContainerProductos2 .carousel-dark {
-  padding: 80px;
-}
-.ContainerProductos2 .ProductosTeclados {
-  height: 100vh;
+.ContainerProductos2 .ProductosTeclados .card-body p span {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
 }
 .ContainerProductos2 .TitleTeclados {
-  background-color: red;
+  background-color: aqua;
   padding: 20px;
   text-align: center;
   font-size: 40px;
 }
 
-.ContainerProductos3 {
-  height: 50vh;
-}
 .ContainerProductos3 .cards-wrapper {
-  width: 450px;
-  height: 350px;
+  padding: 0px;
+  width: 300px;
+  height: 100%;
+}
+.ContainerProductos3 .cards-wrapper .card {
+  margin: 3px;
+  width: 300px;
+  height: 320px;
+}
+.ContainerProductos3 .cards-wrapper .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.ContainerProductos3 .cards-wrapper .card .card-body .btn {
+  width: 100%;
+}
+.ContainerProductos3 .carousel-dark {
+  padding: 0px;
+}
+.ContainerProductos3 .ProductosAudifonos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.ContainerProductos3 .cards-wrapper .card {
-  margin: 3px;
-  width: 0;
-  height: 300px;
+.ContainerProductos3 .ProductosAudifonos .card-body p {
+  font-size: 15px;
+  text-align: center;
 }
-.ContainerProductos3 .cards-wrapper .card .card-body {
-  width: 400px;
-}
-.ContainerProductos3 .cards-wrapper .card .card-body .btn {
-  width: 100px;
-}
-.ContainerProductos3 .carousel-dark {
-  padding: 80px;
-}
-.ContainerProductos3 .ProductosAudifonos {
-  height: 60vh;
+.ContainerProductos3 .ProductosAudifonos .card-body p span {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
 }
 .ContainerProductos3 .TitleAudifonos {
-  background-color: green;
+  background-color: aqua;
   padding: 20px;
   text-align: center;
   font-size: 40px;
