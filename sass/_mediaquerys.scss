@@ -867,17 +867,28 @@
 
 /*=========Productos y juegos html ===========*/
 .ContainerProductos{
+    .cards-wrapper{
+        width: 400px;
+        height:400px;
+        display:flex;
+        justify-content: center;
+        .card{
+            margin: 10px;
+            width: 0;
+            height: 300px;
+        }
+    }
     .carousel-dark{
-       padding: 80px;
+       padding: 0px;
     }
     .ProductosMouse{
         height: 60vh;
         
         .card-body p{
-            font-size: 20px;
+            font-size: 15px;
             span{
                 color: rgb(255, 0, 0);
-                font-size: 28px;
+                font-size: 24px;
             }
         }
     }

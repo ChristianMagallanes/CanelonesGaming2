@@ -1405,18 +1405,33 @@ footer {
   }
 }
 /*=========Productos y juegos html ===========*/
+.ContainerProductos .cards-wrapper {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ContainerProductos .cards-wrapper .card {
+  margin: 10px;
+  width: 0;
+  height: 300px;
+}
 .ContainerProductos .carousel-dark {
-  padding: 80px;
+  padding: 0px;
 }
 .ContainerProductos .ProductosMouse {
   height: 60vh;
 }
 .ContainerProductos .ProductosMouse .card-body p {
-  font-size: 20px;
+  font-size: 15px;
 }
 .ContainerProductos .ProductosMouse .card-body p span {
   color: rgb(255, 0, 0);
-  font-size: 28px;
+  font-size: 24px;
 }
 .ContainerProductos .TitleMouse {
   background-color: aqua;
