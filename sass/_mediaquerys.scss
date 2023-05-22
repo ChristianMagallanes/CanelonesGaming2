@@ -871,10 +871,11 @@
 
 /*=========Productos y juegos html ===========*/
 .ContainerProductos{
-    height: 60vh;
+    height: 80vh;
     .cards-wrapper{
         padding: 60px;
-        width: 420px;
+       
+        width: 100%;
         height:100%;
         display:flex;
         justify-content: center;
