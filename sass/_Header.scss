@@ -12,6 +12,7 @@
         h1{
             margin-top: 200px;
             font-size: 70px;
+            font-family: 'Anton', sans-serif;
         }
         p{
             font-size: 30px;
@@ -40,6 +41,7 @@
         grid-row: 2/2;
         h2{
             font-size: 60px;
+            font-family: 'Anton', sans-serif;
         }
         p{
             font-size: 30px;
@@ -69,6 +71,10 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+    }
     
 }
 
@@ -77,6 +83,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 80px;
+    }
     .HeaderContentJuegos{
         display: flex;
         flex-direction: column;
