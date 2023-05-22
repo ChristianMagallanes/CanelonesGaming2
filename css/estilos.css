@@ -1412,7 +1412,8 @@ footer {
   height: 60vh;
 }
 .ContainerProductos .cards-wrapper {
-  width: 410px;
+  padding: 60px;
+  width: 420px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
