@@ -1390,19 +1390,19 @@ footer {
     grid-row: 1/4;
   }
   .ContainerEquipo3 .Equipo3 .Equipo {
-    height: 400px;
+    margin-top: 150px;
+    height: 220px;
   }
   .ContainerEquipo3 .Caracteristicas3 {
     text-align: center;
     grid-column: 1/3;
     grid-row: 1/1;
-    margin-top: 150px;
   }
   .ContainerEquipo3 .Caracteristicas3 h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .ContainerEquipo3 .Caracteristicas3 p {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 /*=========Productos y juegos html ===========*/
