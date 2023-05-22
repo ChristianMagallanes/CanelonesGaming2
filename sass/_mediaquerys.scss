@@ -898,7 +898,9 @@
        padding: 0px;
     }
     .ProductosMouse{
-        margin: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
         .card-body p{
             font-size: 15px;
