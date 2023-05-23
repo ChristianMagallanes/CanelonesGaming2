@@ -1,7 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Exo+2&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -9,15 +7,16 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left bottom, left top, from(#27252a), color-stop(#383238), color-stop(#504349), to(#6c5e61));
-  background: linear-gradient(0deg, #27252a, #383238, #504349, #6c5e61);
-  background-size: 800% 800%;
-  -webkit-animation: AnimationName 18s ease infinite;
-  animation: AnimationName 18s ease infinite;
+  background-color: #fff;
 }
 
 .logo {
   width: 60px;
+}
+
+.navbar {
+  -webkit-box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
+          box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
 }
 
 .navbar-collapse {
@@ -27,12 +26,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 20px 0px 20px 20px;
 }
 .navbar-collapse .nav-link {
   font-size: 20px;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   margin: 5px;
   border-radius: 1rem;
 }
@@ -43,27 +41,23 @@ body {
 
 .HeaderGrid {
   display: grid;
-  grid-template-columns: 4fr 2fr 2fr;
+  grid-template-columns: 4fr 1fr 2fr 2fr;
   grid-template-rows: 4fr 2fr;
   height: 200vh;
 }
 .HeaderGrid .HeaderGridBienvenida {
   text-align: center;
   margin-top: 30%;
-  grid-column: 2/2;
-  grid-row: 3/1;
+  grid-column: 2/4;
+  grid-row: 1/1;
 }
 .HeaderGrid .HeaderGridBienvenida h1 {
-  margin-top: 200px;
-  font-size: 70px;
-  font-family: "Anton", sans-serif;
-  color: #fff;
+  margin-top: 180px;
+  font-size: 84px;
+  font-family: "Pacifico", cursive;
+  color: #000000;
   -webkit-animation: move linear 2000ms infinite;
           animation: move linear 2000ms infinite;
-}
-.HeaderGrid .HeaderGridBienvenida p {
-  font-size: 30px;
-  color: #fff;
 }
 .HeaderGrid .HeaderGridBienvenida .BtnHeader {
   text-decoration: none;
@@ -72,29 +66,31 @@ body {
   background-color: #ff0000;
   border-radius: 1rem;
   padding: 10px;
+  margin-top: 50px;
 }
 .HeaderGrid .HeaderGridimg {
-  margin: 80px;
+  margin-top: 150px;
   grid-column: 1/1;
   grid-row: 1/2;
 }
 .HeaderGrid .HeaderGridimg img {
-  width: 90%;
+  width: 70%;
 }
 .HeaderGrid .HeaderGridinfo {
   text-align: center;
   margin-top: 30%;
-  grid-column: 2/2;
+  grid-column: 2/4;
   grid-row: 2/2;
+  margin-top: 300px;
 }
 .HeaderGrid .HeaderGridinfo h2 {
   font-size: 60px;
   font-family: "Anton", sans-serif;
-  color: #fff;
+  color: #000000;
 }
 .HeaderGrid .HeaderGridinfo p {
   font-size: 30px;
-  color: #fff;
+  color: #000000;
 }
 .HeaderGrid .HeaderGridinfo .BtnHeader {
   text-decoration: none;
@@ -110,7 +106,8 @@ body {
   grid-row: 2/3;
 }
 .HeaderGrid .HeaderGridimg1 img {
-  width: 80%;
+  width: 90%;
+  margin-top: 150px;
 }
 
 .HeaderProductos {
@@ -605,59 +602,37 @@ form input[type=submit] {
 
 @-webkit-keyframes move {
   0% {
-    text-shadow: 4px -4px 0 rgb(5, 5, 5), 3px -3px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -4px 4px 0 rgb(121, 131, 131), -3px 3px 0 rgb(99, 110, 110), -2px 2px 0 rgb(86, 94, 94), -1px 1px 0 rgb(55, 59, 59);
+    text-shadow: 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 #fdfdfd, 1px -1px 0 rgb(255, 255, 255), -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
   }
   25% {
-    text-shadow: -4px -4px 0 rgb(46, 48, 48), -3px -3px 0 rgb(54, 54, 54), -2px -2px 0 rgb(88, 90, 90), -1px -1px 0 rgb(103, 107, 107), 4px 4px 0 rgb(0, 0, 0), 3px 3px 0 rgb(17, 15, 15), 2px 2px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    text-shadow: -4px -4px 0 rgb(255, 255, 255), -3px -3px 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 4px 4px 0 rgb(255, 255, 255), 3px 3px 0 rgb(250, 250, 250), 2px 2px 0 rgb(245, 245, 248), 1px 1px 0 rgb(251, 251, 252);
   }
   50% {
-    text-shadow: -4px 4px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 4px -4px 0 rgb(70, 66, 67), 3px -3px 0 rgb(44, 46, 46), 2px -2px 0 rgb(64, 66, 66), 1px -1px 0 rgb(55, 56, 56);
+    text-shadow: -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255);
   }
   75% {
-    text-shadow: 4px 4px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), -4px -4px 0 rgb(65, 61, 61), -3px -3px 0 rgb(54, 50, 50), -2px -2px 0 rgb(128, 126, 126), -1px -1px 0 rgb(105, 95, 95);
+    text-shadow: 4px 4px 0 rgb(255, 255, 255), 3px 3px 0 rgb(247, 242, 242), 2px 2px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), -4px -4px 0 rgb(255, 255, 255), -3px -3px 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
   }
   100% {
-    text-shadow: 4px -4px 0 rgb(70, 66, 66), 3px -3px 0 rgb(75, 72, 72), 2px -2px 0 rgb(68, 62, 62), 1px -1px 0 rgb(56, 52, 52), -4px 4px 0 rgb(7, 7, 7), -3px 3px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+    text-shadow: 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 246, 246), -1px 1px 0 rgb(255, 255, 255);
   }
 }
 
 @keyframes move {
   0% {
-    text-shadow: 4px -4px 0 rgb(5, 5, 5), 3px -3px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -4px 4px 0 rgb(121, 131, 131), -3px 3px 0 rgb(99, 110, 110), -2px 2px 0 rgb(86, 94, 94), -1px 1px 0 rgb(55, 59, 59);
+    text-shadow: 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 #fdfdfd, 1px -1px 0 rgb(255, 255, 255), -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
   }
   25% {
-    text-shadow: -4px -4px 0 rgb(46, 48, 48), -3px -3px 0 rgb(54, 54, 54), -2px -2px 0 rgb(88, 90, 90), -1px -1px 0 rgb(103, 107, 107), 4px 4px 0 rgb(0, 0, 0), 3px 3px 0 rgb(17, 15, 15), 2px 2px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    text-shadow: -4px -4px 0 rgb(255, 255, 255), -3px -3px 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 4px 4px 0 rgb(255, 255, 255), 3px 3px 0 rgb(250, 250, 250), 2px 2px 0 rgb(245, 245, 248), 1px 1px 0 rgb(251, 251, 252);
   }
   50% {
-    text-shadow: -4px 4px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 4px -4px 0 rgb(70, 66, 67), 3px -3px 0 rgb(44, 46, 46), 2px -2px 0 rgb(64, 66, 66), 1px -1px 0 rgb(55, 56, 56);
+    text-shadow: -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255);
   }
   75% {
-    text-shadow: 4px 4px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), -4px -4px 0 rgb(65, 61, 61), -3px -3px 0 rgb(54, 50, 50), -2px -2px 0 rgb(128, 126, 126), -1px -1px 0 rgb(105, 95, 95);
+    text-shadow: 4px 4px 0 rgb(255, 255, 255), 3px 3px 0 rgb(247, 242, 242), 2px 2px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), -4px -4px 0 rgb(255, 255, 255), -3px -3px 0 rgb(255, 255, 255), -2px -2px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
   }
   100% {
-    text-shadow: 4px -4px 0 rgb(70, 66, 66), 3px -3px 0 rgb(75, 72, 72), 2px -2px 0 rgb(68, 62, 62), 1px -1px 0 rgb(56, 52, 52), -4px 4px 0 rgb(7, 7, 7), -3px 3px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
-  }
-}
-@-webkit-keyframes AnimationName {
-  0% {
-    background-position: 53% 0%;
-  }
-  50% {
-    background-position: 48% 100%;
-  }
-  100% {
-    background-position: 53% 0%;
-  }
-}
-@keyframes AnimationName {
-  0% {
-    background-position: 53% 0%;
-  }
-  50% {
-    background-position: 48% 100%;
-  }
-  100% {
-    background-position: 53% 0%;
+    text-shadow: 4px -4px 0 rgb(255, 255, 255), 3px -3px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -4px 4px 0 rgb(255, 255, 255), -3px 3px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 246, 246), -1px 1px 0 rgb(255, 255, 255);
   }
 }
 footer {
@@ -1508,14 +1483,13 @@ footer {
   }
   .HeaderGrid .HeaderGridimg1 {
     text-align: center;
-    margin-left: 10%;
     grid-column: 1/2;
     grid-row: 2/2;
   }
   .HeaderGrid .HeaderGridimg1 img {
     margin-top: 120px;
-    margin-left: 15%;
-    width: 200px;
+    margin-left: 40px;
+    width: 300px;
   }
   .HeaderProductos {
     display: -webkit-box;
