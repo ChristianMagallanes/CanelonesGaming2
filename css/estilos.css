@@ -796,8 +796,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 180px);
     grid-template-rows: repeat(5, 1fr);
-    background-image: url(../test.jpg);
-    background-attachment: fixed;
     text-align: center;
     gap: 10px;
     height: 100vh;
@@ -959,11 +957,6 @@ footer {
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(4, 2fr);
     height: 100vh;
-    background-attachment: fixed;
-    background-image: url(../assets/porquelejirnos.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
   }
   .HomeContent2 .HomeTitle2 {
     color: #fff;
@@ -1276,10 +1269,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-image: url(../test.jpg);
-    background-attachment: fixed;
     text-align: center;
-    gap: 10px;
+    gap: 70px;
     height: 100vh;
   }
   .HomeContent .HomeTitle {
@@ -1439,14 +1430,9 @@ footer {
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(4, 2fr);
     height: 100vh;
-    background-attachment: fixed;
-    background-image: url(../assets/porquelejirnos.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
   }
   .HomeContent2 .HomeTitle2 {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-size: 50px;
     grid-column: 1/5;
