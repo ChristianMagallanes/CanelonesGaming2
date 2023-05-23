@@ -1132,7 +1132,7 @@ footer {
 }
 
 /* Tamaño de telefonos */
-@media screen and (min-width: 365px) {
+@media screen and (max-width: 365px) {
   /*Todos los headers*/
   .HeaderGrid {
     display: grid;
