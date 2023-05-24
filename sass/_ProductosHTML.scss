@@ -44,7 +44,7 @@
             font-size: 24px;
             color: red;
             @include mobile{
-              font-size: 15px;
+              font-size: 20px;
               margin: 0px;
               
             }
@@ -59,7 +59,8 @@
             border-radius: 20px;
             width: 100%;
             @include mobile{
-              padding: 3px;
+              padding: 2px;
+              width: 80px;
              
               
             }
@@ -116,6 +117,15 @@
           img{
             height: 100%;
           }
+          p{
+            font-size: 24px;
+            color: red;
+            @include mobile{
+              font-size: 20px;
+              margin: 0px;
+              
+            }
+          }
           a{
             background-color: black;
             color: #fff;
@@ -125,7 +135,8 @@
             border-radius: 20px;
             width: 100%;
             @include mobile{
-              padding: 3px;
+              padding: 2px;
+              width: 80px;
             }
           }
         }
@@ -178,6 +189,15 @@
           img{
             height: 100%;
           }
+          p{
+            font-size: 24px;
+            color: red;
+            @include mobile{
+              font-size: 20px;
+              margin: 0px;
+              
+            }
+          }
           a{
             background-color: black;
             color: #fff;
@@ -187,7 +207,8 @@
             border-radius: 20px;
             width: 100%;
             @include mobile{
-              padding: 3px;
+              padding: 2px;
+              width: 80px;
             }
           }
         }

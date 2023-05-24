@@ -393,7 +393,7 @@ body {
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos .containerslide .itemslide p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0px;
   }
 }
@@ -408,7 +408,8 @@ body {
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos .containerslide .itemslide a {
-    padding: 3px;
+    padding: 2px;
+    width: 80px;
   }
 }
 .ContainerProductos .TitleMouse {
@@ -476,6 +477,16 @@ body {
 .ContainerProductos2 .containerslide .itemslide img {
   height: 100%;
 }
+.ContainerProductos2 .containerslide .itemslide p {
+  font-size: 24px;
+  color: red;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos2 .containerslide .itemslide p {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
 .ContainerProductos2 .containerslide .itemslide a {
   background-color: black;
   color: #fff;
@@ -487,7 +498,8 @@ body {
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos2 .containerslide .itemslide a {
-    padding: 3px;
+    padding: 2px;
+    width: 80px;
   }
 }
 .ContainerProductos2 .ProductosTeclados {
@@ -557,6 +569,16 @@ body {
 .ContainerProductos3 .containerslide .itemslide img {
   height: 100%;
 }
+.ContainerProductos3 .containerslide .itemslide p {
+  font-size: 24px;
+  color: red;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos3 .containerslide .itemslide p {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
 .ContainerProductos3 .containerslide .itemslide a {
   background-color: black;
   color: #fff;
@@ -568,7 +590,8 @@ body {
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos3 .containerslide .itemslide a {
-    padding: 3px;
+    padding: 2px;
+    width: 80px;
   }
 }
 .ContainerProductos3 .ProductosAudifonos {
