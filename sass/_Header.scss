@@ -148,7 +148,7 @@
             margin-bottom: 60px;
         }
         img{
-            width: 60%;
+            width: 80%;
             margin-top: 150px;
             @include tablet{
                 margin-top: 190px;
@@ -179,11 +179,21 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    .BtnHeader{
+        text-decoration: none;
+        color: #ffffff;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 5px;
+    }
     h1{
         font-family: 'Anton', sans-serif;
         font-size: 80px;
-        color: #fff;
+        color: #000000;
         animation: move linear 2000ms infinite;
+        @include mobile{
+            font-size: 40px;
+        }
     }
     
 }

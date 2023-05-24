@@ -223,7 +223,7 @@ body {
   }
 }
 .HeaderGrid .HeaderGridimg1 img {
-  width: 60%;
+  width: 80%;
   margin-top: 150px;
 }
 @media screen and (max-width: 770px) {
@@ -256,12 +256,24 @@ body {
           align-items: center;
   height: 100vh;
 }
+.HeaderProductos .BtnHeader {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+}
 .HeaderProductos h1 {
   font-family: "Anton", sans-serif;
   font-size: 80px;
-  color: #fff;
+  color: #000000;
   -webkit-animation: move linear 2000ms infinite;
           animation: move linear 2000ms infinite;
+}
+@media screen and (max-width: 366px) {
+  .HeaderProductos h1 {
+    font-size: 40px;
+  }
 }
 
 .HeaderJuegos {
@@ -356,7 +368,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgb(206, 201, 201);
+  background-color: rgb(255, 253, 253);
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
@@ -369,7 +383,7 @@ body {
   height: 100%;
 }
 .ContainerProductos .containerslide .itemslide a {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -377,11 +391,17 @@ body {
   border-radius: 20px;
   width: 100%;
 }
+@media screen and (max-width: 366px) {
+  .ContainerProductos .containerslide .itemslide a {
+    padding: 3px;
+  }
+}
 .ContainerProductos .TitleMouse {
-  background-color: aqua;
+  font-family: "Anton", sans-serif;
   padding: 20px;
   text-align: center;
   font-size: 60px;
+  margin-top: 100px;
 }
 
 .ContainerProductos2 .carousel span {
@@ -389,6 +409,13 @@ body {
   height: 50px;
   width: 60px;
   border-radius: 100%;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos2 .carousel span {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 250px;
+  }
 }
 .ContainerProductos2 .containerslide {
   display: -webkit-box;
@@ -399,6 +426,11 @@ body {
           justify-content: center;
   gap: 50px;
   margin: 50px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos2 .containerslide {
+    gap: 10px;
+  }
 }
 .ContainerProductos2 .containerslide .itemslide {
   height: 400px;
@@ -415,9 +447,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgb(206, 201, 201);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos2 .containerslide .itemslide {
+    height: 200px;
+  }
 }
 .ContainerProductos2 .containerslide .itemslide img {
   height: 100%;
@@ -431,11 +470,16 @@ body {
   border-radius: 20px;
   width: 100%;
 }
+@media screen and (max-width: 366px) {
+  .ContainerProductos2 .containerslide .itemslide a {
+    padding: 3px;
+  }
+}
 .ContainerProductos2 .ProductosTeclados {
   height: 60vh;
 }
 .ContainerProductos2 .TitleTeclados {
-  background-color: red;
+  font-family: "Anton", sans-serif;
   padding: 20px;
   text-align: center;
   font-size: 60px;
@@ -447,6 +491,13 @@ body {
   width: 60px;
   border-radius: 100%;
 }
+@media screen and (max-width: 366px) {
+  .ContainerProductos3 .carousel span {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 250px;
+  }
+}
 .ContainerProductos3 .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,6 +507,11 @@ body {
           justify-content: center;
   gap: 50px;
   margin: 50px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos3 .containerslide {
+    gap: 10px;
+  }
 }
 .ContainerProductos3 .containerslide .itemslide {
   max-height: 400px;
@@ -472,9 +528,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgb(206, 201, 201);
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos3 .containerslide .itemslide {
+    height: 200px;
+  }
 }
 .ContainerProductos3 .containerslide .itemslide img {
   height: 100%;
@@ -488,11 +551,16 @@ body {
   border-radius: 20px;
   width: 100%;
 }
+@media screen and (max-width: 366px) {
+  .ContainerProductos3 .containerslide .itemslide a {
+    padding: 3px;
+  }
+}
 .ContainerProductos3 .ProductosAudifonos {
   height: 60vh;
 }
 .ContainerProductos3 .TitleAudifonos {
-  background-color: green;
+  font-family: "Anton", sans-serif;
   padding: 20px;
   text-align: center;
   font-size: 60px;
