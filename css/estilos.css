@@ -365,6 +365,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -381,6 +382,25 @@ body {
 }
 .ContainerProductos .containerslide .itemslide img {
   height: 100%;
+}
+.ContainerProductos .containerslide .itemslide p {
+  font-size: 24px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos .containerslide .itemslide p {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+.ContainerProductos .containerslide .itemslide .precio {
+  color: red;
+  font-size: 30px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos .containerslide .itemslide .precio {
+    font-size: 15px;
+    margin: 0;
+  }
 }
 .ContainerProductos .containerslide .itemslide a {
   background-color: rgb(0, 0, 0);
