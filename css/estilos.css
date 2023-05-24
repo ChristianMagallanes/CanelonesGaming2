@@ -44,6 +44,12 @@ body {
   grid-template-rows: 4fr 2fr;
   height: 200vh;
 }
+@media screen and (max-width: 770px) {
+  .HeaderGrid {
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+  }
+}
 @media screen and (max-width: 366px) {
   .HeaderGrid {
     grid-template-columns: repeat(auto-fill, minmax(1rem, 1fr));
@@ -56,6 +62,13 @@ body {
   margin-top: 30%;
   grid-column: 2/4;
   grid-row: 1/1;
+}
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridBienvenida {
+    margin-top: 30%;
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
 }
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridBienvenida {
@@ -71,8 +84,16 @@ body {
   -webkit-animation: move linear 2000ms infinite;
           animation: move linear 2000ms infinite;
 }
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridBienvenida h1 {
+    margin-bottom: 30px;
+    margin-top: 130px;
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridBienvenida h1 {
+    margin-bottom: 20px;
     margin-top: 230px;
     font-size: 40px;
   }
@@ -84,12 +105,18 @@ body {
   background-color: #ff0000;
   border-radius: 1rem;
   padding: 10px;
-  margin-top: 50px;
 }
 .HeaderGrid .HeaderGridimg {
   margin-top: 150px;
   grid-column: 1/1;
   grid-row: 1/2;
+}
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridimg {
+    margin: 80px;
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
 }
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridimg {
@@ -100,6 +127,12 @@ body {
 }
 .HeaderGrid .HeaderGridimg img {
   width: 70%;
+}
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridimg img {
+    margin-top: 90px;
+    width: 150%;
+  }
 }
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridimg img {
@@ -115,6 +148,13 @@ body {
   grid-row: 2/2;
   margin-top: 300px;
 }
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridinfo {
+    margin-top: 30%;
+    grid-column: 2/2;
+    grid-row: 2/2;
+  }
+}
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridinfo {
     margin-top: 30%;
@@ -128,15 +168,26 @@ body {
   font-family: "Anton", sans-serif;
   color: #000000;
 }
-@media screen and (max-width: 366px) {
+@media screen and (max-width: 770px) {
   .HeaderGrid .HeaderGridinfo h2 {
     margin-top: 120px;
     font-size: 50px;
   }
 }
+@media screen and (max-width: 366px) {
+  .HeaderGrid .HeaderGridinfo h2 {
+    margin-top: 120px;
+    font-size: 40px;
+  }
+}
 .HeaderGrid .HeaderGridinfo p {
   font-size: 30px;
   color: #000000;
+}
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridinfo p {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridinfo p {
@@ -156,6 +207,13 @@ body {
   grid-column: 1/1;
   grid-row: 2/3;
 }
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridimg1 {
+    height: 100vh;
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+}
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridimg1 {
     text-align: center;
@@ -167,9 +225,14 @@ body {
   width: 90%;
   margin-top: 150px;
 }
+@media screen and (max-width: 770px) {
+  .HeaderGrid .HeaderGridimg1 img {
+    margin-top: 190px;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 366px) {
   .HeaderGrid .HeaderGridimg1 img {
-    margin-top: 120px;
     margin-left: 40px;
     width: 300px;
   }
@@ -442,6 +505,14 @@ body {
   gap: 20px;
   height: 100vh;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent {
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    height: 100vh;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent {
     grid-template-columns: repeat(2, 1fr);
@@ -455,6 +526,13 @@ body {
   font-size: 60px;
   font-family: "Anton", sans-serif;
   color: #fff;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .HomeTitle {
+    margin-top: 50px;
+    grid-column: 2/4;
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .HomeTitle {
@@ -488,6 +566,15 @@ body {
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data1 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data1 {
     grid-column: 2/2;
@@ -500,6 +587,12 @@ body {
 .HomeContent .Data1 h2 {
   font-family: "Anton", sans-serif;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data1 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data1 h2 {
     font-size: 20px;
@@ -509,6 +602,12 @@ body {
 .HomeContent .Data1 .DivData {
   width: 100%;
   height: 100px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data1 .DivData {
+    width: 100%;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data1 .DivData {
@@ -520,6 +619,12 @@ body {
   padding: 10px;
   font-size: 20px;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data1 .DivData p {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data1 .DivData p {
     padding: 10px;
@@ -529,6 +634,12 @@ body {
 .HomeContent .Data1 img {
   padding: 20px;
   width: 100%;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data1 img {
+    padding: 0px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data1 img {
@@ -557,6 +668,15 @@ body {
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data2 {
+    height: 100%;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 2/2;
+    margin: 10px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data2 {
     margin: 10px;
@@ -569,6 +689,12 @@ body {
 .HomeContent .Data2 h2 {
   font-family: "Anton", sans-serif;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data2 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data2 h2 {
     font-size: 20px;
@@ -578,6 +704,12 @@ body {
 .HomeContent .Data2 .DivData {
   width: 100%;
   height: 100px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data2 .DivData {
+    width: 100%;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data2 .DivData {
@@ -589,6 +721,12 @@ body {
   padding: 20px;
   font-size: 20px;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data2 .DivData p {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data2 .DivData p {
     padding: 10px;
@@ -598,6 +736,12 @@ body {
 .HomeContent .Data2 img {
   width: 100%;
   padding: 20px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data2 img {
+    padding: 0px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data2 img {
@@ -626,6 +770,15 @@ body {
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data3 {
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+    grid-column: 2/4;
+    grid-row: 3/3;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data3 {
     margin: 10px;
@@ -638,6 +791,12 @@ body {
 .HomeContent .Data3 h2 {
   font-family: "Anton", sans-serif;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data3 h2 {
+    font: 20px;
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data3 h2 {
     font-size: 20px;
@@ -647,6 +806,12 @@ body {
 .HomeContent .Data3 .DivData {
   width: 100%;
   height: 100px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data3 .DivData {
+    width: 100%;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data3 .DivData {
@@ -658,6 +823,12 @@ body {
   padding: 20px;
   font-size: 20px;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data3 .DivData p {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data3 .DivData p {
     padding: 10px;
@@ -667,6 +838,12 @@ body {
 .HomeContent .Data3 img {
   width: 100%;
   padding: 20px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data3 img {
+    padding: 0px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data3 img {
@@ -695,6 +872,15 @@ body {
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data4 {
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 3/3;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data4 {
     margin: 10px;
@@ -707,6 +893,12 @@ body {
 .HomeContent .Data4 h2 {
   font-family: "Anton", sans-serif;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data4 h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data4 h2 {
     font-size: 20px;
@@ -716,6 +908,12 @@ body {
 .HomeContent .Data4 .DivData {
   width: 100%;
   height: 100px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data4 .DivData {
+    width: 100%;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data4 .DivData {
@@ -728,6 +926,12 @@ body {
   padding: 20px;
   font-size: 20px;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent .Data4 .DivData p {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent .Data4 .DivData p {
     padding: 10px;
@@ -737,6 +941,12 @@ body {
 .HomeContent .Data4 img {
   width: 100%;
   padding: 20px;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent .Data4 img {
+    padding: 0px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent .Data4 img {
@@ -764,6 +974,14 @@ body {
   grid-row: 1/2;
   font-family: "Anton", sans-serif;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent2 .HomeTitle2 {
+    font-size: 50px;
+    grid-column: 1/5;
+    grid-row: 1/1;
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent2 .HomeTitle2 {
     font-size: 30px;
@@ -777,6 +995,13 @@ body {
   grid-row: 2/4;
   grid-column: 2/4;
   border-radius: 1rem;
+}
+@media screen and (max-width: 770px) {
+  .HomeContent2 .Data5 {
+    grid-row: 2/5;
+    grid-column: 1/5;
+    border-radius: 1rem;
+  }
 }
 @media screen and (max-width: 366px) {
   .HomeContent2 .Data5 {
@@ -792,6 +1017,13 @@ body {
   margin-top: 16px;
   font-size: 24px;
 }
+@media screen and (max-width: 770px) {
+  .HomeContent2 .Data5 .fa-check {
+    margin: 10px;
+    margin-top: 16px;
+    font-size: 24px;
+  }
+}
 @media screen and (max-width: 366px) {
   .HomeContent2 .Data5 .fa-check {
     margin: 10px;
@@ -803,10 +1035,16 @@ body {
   margin-left: 10px;
   font-size: 18px;
 }
-@media screen and (max-width: 366px) {
+@media screen and (max-width: 770px) {
   .HomeContent2 .Data5 .fa-check span {
     margin-left: 10px;
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 366px) {
+  .HomeContent2 .Data5 .fa-check span {
+    margin-left: 10px;
+    font-size: 12px;
   }
 }
 
