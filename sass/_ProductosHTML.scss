@@ -1,23 +1,86 @@
 .ContainerProductos{
-    .ProductosMouse{
-        height: 60vh;
-        .card-body p{
-            font-size: 20px;
-            span{
-                color: rgb(255, 0, 0);
-                font-size: 28px;
-            }
+    .carousel{
+        span{
+          background-color: black;
+          height: 50px;
+          width: 60px;
+          border-radius: 100%;
         }
-    }
+      }
+      .containerslide{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 50px;
+        .itemslide{
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          background-color: rgb(206, 201, 201);
+          padding: 15px;
+          border-radius: 20px;
+          img{
+            height: 100%;
+          }
+          a{
+            background-color: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+            width: 100%;
+          }
+        }
+      }
     .TitleMouse{
         background-color: aqua;
         padding: 20px;
         text-align: center;
         font-size: 60px;
     }
+    
 }
 
 .ContainerProductos2{
+    .carousel{
+        span{
+          background-color: black;
+          height: 50px;
+          width: 60px;
+          border-radius: 100%;
+        }
+      }
+      .containerslide{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 50px;
+        .itemslide{
+          height: 400px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          background-color: rgb(206, 201, 201);
+          padding: 15px;
+          border-radius: 20px;
+          img{
+            height: 100%;
+          }
+          a{
+            background-color: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+            width: 100%;
+          }
+        }
+      }
     .ProductosTeclados{
         height: 60vh;
     }
@@ -29,6 +92,44 @@
     }
 }
 .ContainerProductos3{
+    .carousel{
+        span{
+          background-color: black;
+          height: 50px;
+          width: 60px;
+          border-radius: 100%;
+        }
+      }
+      .containerslide{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin: 50px;
+        .itemslide{
+          max-height: 400px;
+          
+          
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          background-color: rgb(206, 201, 201);
+          padding: 15px;
+          border-radius: 20px;
+          img{
+            height: 100%;
+          }
+          a{
+            background-color: black;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+            width: 100%;
+          }
+        }
+      }
     .ProductosAudifonos{
         height: 60vh;
     }
