@@ -325,6 +325,9 @@ body {
   height: 50vh;
 }
 
+.ContainerProductos .carousel {
+  width: 100%;
+}
 .ContainerProductos .carousel span {
   background-color: black;
   height: 50px;
@@ -351,10 +354,11 @@ body {
 @media screen and (max-width: 366px) {
   .ContainerProductos .containerslide {
     gap: 10px;
+    margin: 20px;
   }
 }
 .ContainerProductos .containerslide .itemslide {
-  height: 400px;
+  height: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,23 +385,13 @@ body {
   }
 }
 .ContainerProductos .containerslide .itemslide img {
-  height: 100%;
+  width: 100%;
 }
 .ContainerProductos .containerslide .itemslide p {
   font-size: 24px;
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos .containerslide .itemslide p {
-    font-size: 15px;
-    margin: 0;
-  }
-}
-.ContainerProductos .containerslide .itemslide .precio {
-  color: red;
-  font-size: 30px;
-}
-@media screen and (max-width: 366px) {
-  .ContainerProductos .containerslide .itemslide .precio {
     font-size: 15px;
     margin: 0;
   }
