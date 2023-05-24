@@ -389,11 +389,12 @@ body {
 }
 .ContainerProductos .containerslide .itemslide p {
   font-size: 24px;
+  color: red;
 }
 @media screen and (max-width: 366px) {
   .ContainerProductos .containerslide .itemslide p {
     font-size: 15px;
-    margin: 0;
+    margin: 0px;
   }
 }
 .ContainerProductos .containerslide .itemslide a {
