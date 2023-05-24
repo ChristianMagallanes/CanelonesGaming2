@@ -5,6 +5,11 @@
           height: 50px;
           width: 60px;
           border-radius: 100%;
+          @include mobile{
+            height: 30px;
+            width: 30px;
+            margin-bottom: 250px;
+          }
         }
       }
       .containerslide{
@@ -12,6 +17,10 @@
         justify-content: center;
         gap: 50px;
         margin: 50px;
+        @include mobile{
+          gap: 10px;
+        }
+      
         .itemslide{
           height: 400px;
           display: flex;
@@ -21,6 +30,9 @@
           background-color: rgb(206, 201, 201);
           padding: 15px;
           border-radius: 20px;
+          @include mobile{
+            height: 200px;
+          }
           img{
             height: 100%;
           }
@@ -32,6 +44,7 @@
             text-decoration: none;
             border-radius: 20px;
             width: 100%;
+            
           }
         }
       }

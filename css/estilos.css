@@ -223,7 +223,7 @@ body {
   }
 }
 .HeaderGrid .HeaderGridimg1 img {
-  width: 90%;
+  width: 60%;
   margin-top: 150px;
 }
 @media screen and (max-width: 770px) {
@@ -319,6 +319,13 @@ body {
   width: 60px;
   border-radius: 100%;
 }
+@media screen and (max-width: 366px) {
+  .ContainerProductos .carousel span {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 250px;
+  }
+}
 .ContainerProductos .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,6 +335,11 @@ body {
           justify-content: center;
   gap: 50px;
   margin: 50px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos .containerslide {
+    gap: 10px;
+  }
 }
 .ContainerProductos .containerslide .itemslide {
   height: 400px;
@@ -347,6 +359,11 @@ body {
   background-color: rgb(206, 201, 201);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 366px) {
+  .ContainerProductos .containerslide .itemslide {
+    height: 200px;
+  }
 }
 .ContainerProductos .containerslide .itemslide img {
   height: 100%;
