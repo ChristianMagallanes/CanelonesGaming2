@@ -341,10 +341,13 @@ body {
   width: 100%;
 }
 .ContainerProductos .carousel span {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 50px;
-  width: 60px;
+  width: 50px;
   border-radius: 100%;
+}
+.ContainerProductos .carousel span:hover {
+  background-color: orange;
 }
 @media screen and (max-width: 375px) {
   .ContainerProductos .carousel span {
@@ -435,8 +438,11 @@ body {
 .ContainerProductos2 .carousel span {
   background-color: black;
   height: 50px;
-  width: 60px;
+  width: 50px;
   border-radius: 100%;
+}
+.ContainerProductos2 .carousel span:hover {
+  background-color: orange;
 }
 @media screen and (max-width: 375px) {
   .ContainerProductos2 .carousel span {
@@ -527,8 +533,11 @@ body {
 .ContainerProductos3 .carousel span {
   background-color: black;
   height: 50px;
-  width: 60px;
+  width: 50px;
   border-radius: 100%;
+}
+.ContainerProductos3 .carousel span:hover {
+  background-color: orange;
 }
 @media screen and (max-width: 375px) {
   .ContainerProductos3 .carousel span {
