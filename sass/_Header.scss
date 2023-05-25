@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr 2fr 2fr;
     grid-template-rows: 4fr 2fr ;
+    background-image: url(../assets/fonto2.png);
     height: 200vh;
     @include tablet{
         grid-template-columns: 2fr 2fr;
