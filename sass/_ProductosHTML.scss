@@ -100,6 +100,7 @@
 .ContainerProductos2{
   
     .carousel{
+      
         span{
           background-color: black;
           height: 50px;
@@ -284,20 +285,181 @@
 /*Juegoshtml */
 
 .ContainerProductosJuegos{
-    .ProductosJuegos{
-        height: 60vh;
-        .card-body p{
-            font-size: 20px;
-            span{
-                color: rgb(255, 0, 0);
-                font-size: 28px;
-            }
+    margin-top: 50px;
+  
+  .carousel{
+    width: 100%;
+      span{
+        background-color: rgb(0, 0, 0);
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        &:hover{
+          background-color: orange;
         }
+        @include mobile{
+          height: 30px;
+          width: 30px;
+          margin-bottom: 250px;
+        }
+      }
     }
-    .TitleJuegos{
-        background-color: aqua;
-        padding: 20px;
+    .containerslide{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 50px;
+      @include mobile{
+        gap: 10px;
+        margin: 20px;
+      }
+    
+      .itemslide{
+        height: 430px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
-        font-size: 60px;
+        align-items: center;
+        background-color: rgb(255, 253, 253);
+        box-shadow: 2px 3px 22px 0px rgba(0,0,0,0.75);
+        padding: 15px;
+        border-radius: 20px;
+        @include mobile{
+          height: 200px;
+        }
+        img{
+          width: 100%;
+        }
+        p{
+          font-size: 24px;
+          color: red;
+          @include mobile{
+            font-size: 20px;
+            margin: 0px;
+            
+          }
+        }
+        
+        a{
+          box-shadow:inset 0px 2px 0px 0px #fff6af;
+          background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+          background-color:#ffec64;
+          border-radius:6px;
+          border:1px solid #ffaa22;
+          display:inline-block;
+          cursor:pointer;
+          color:#333333;
+          font-family:Arial;
+          font-size:15px;
+          font-weight:bold;
+          padding:8px 15px;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #ffee66;
+          width: 100%;
+          &:hover{
+            background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+            background-color:#ffab23;
+          }
+          &:active{
+            position:relative;
+            top:1px;
+          }
+          @include mobile{
+            padding: 2px;
+            width: 80px;
+           
+            
+          }
+          
+        }
+      }
     }
+}
+
+
+.ContainerProductosJuegos2{
+  
+  .carousel{
+    
+      span{
+        background-color: black;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        &:hover{
+          background-color: orange;
+        }
+        @include mobile{
+          height: 30px;
+          width: 30px;
+          margin-bottom: 250px;
+        }
+      }
+    }
+    .containerslide{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 50px;
+      @include mobile{
+        gap: 10px;
+      }
+      .itemslide{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 3px 22px 0px rgba(0,0,0,0.75);
+        padding: 15px;
+        border-radius: 20px;
+        @include mobile{
+          height: 200px;
+        }
+        img{
+          height: 100%;
+        }
+        p{
+          font-size: 24px;
+          color: red;
+          @include mobile{
+            font-size: 20px;
+            margin: 0px;
+            
+          }
+        }
+        a{
+          box-shadow:inset 0px 2px 0px 0px #fff6af;
+          background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+          background-color:#ffec64;
+          border-radius:6px;
+          border:1px solid #ffaa22;
+          display:inline-block;
+          cursor:pointer;
+          color:#333333;
+          font-family:Arial;
+          font-size:15px;
+          font-weight:bold;
+          padding:8px 15px;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #ffee66;
+          width: 100%;
+          &:hover{
+            background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+            background-color:#ffab23;
+          }
+          &:active{
+            position:relative;
+            top:1px;
+          }
+          @include mobile{
+            padding: 2px;
+            width: 80px;
+          }
+        }
+      }
+    }
+  
 }

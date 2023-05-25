@@ -281,48 +281,12 @@ body {
 }
 
 .HeaderJuegos {
-  height: 120vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: rgb(56, 50, 56);
-  background: linear-gradient(7deg, rgb(56, 50, 56) 30%, rgb(39, 37, 42) 84%);
+  margin-top: 90px;
 }
-.HeaderJuegos h1 {
-  font-family: "Anton", sans-serif;
-  font-size: 80px;
-  color: #fff;
-  -webkit-animation: move linear 2000ms infinite;
-          animation: move linear 2000ms infinite;
-}
-.HeaderJuegos .HeaderContentJuegos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.HeaderJuegos .HeaderContentJuegos .BtnHeader {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  background-color: #ff0000;
-  border-radius: 1rem;
-  padding: 10px;
+@media screen and (max-width: 375px) {
+  .HeaderJuegos {
+    margin-top: 75px;
+  }
 }
 
 .HeaderContacto {
@@ -675,21 +639,222 @@ body {
 }
 
 /*Juegoshtml */
-.ContainerProductosJuegos .ProductosJuegos {
-  height: 60vh;
+.ContainerProductosJuegos {
+  margin-top: 50px;
 }
-.ContainerProductosJuegos .ProductosJuegos .card-body p {
-  font-size: 20px;
+.ContainerProductosJuegos .carousel {
+  width: 100%;
 }
-.ContainerProductosJuegos .ProductosJuegos .card-body p span {
-  color: rgb(255, 0, 0);
-  font-size: 28px;
+.ContainerProductosJuegos .carousel span {
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
 }
-.ContainerProductosJuegos .TitleJuegos {
-  background-color: aqua;
-  padding: 20px;
+.ContainerProductosJuegos .carousel span:hover {
+  background-color: orange;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos .carousel span {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 250px;
+  }
+}
+.ContainerProductosJuegos .containerslide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  margin: 50px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos .containerslide {
+    gap: 10px;
+    margin: 20px;
+  }
+}
+.ContainerProductosJuegos .containerslide .itemslide {
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
-  font-size: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(255, 253, 253);
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos .containerslide .itemslide {
+    height: 200px;
+  }
+}
+.ContainerProductosJuegos .containerslide .itemslide img {
+  width: 100%;
+}
+.ContainerProductosJuegos .containerslide .itemslide p {
+  font-size: 24px;
+  color: red;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos .containerslide .itemslide p {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+.ContainerProductosJuegos .containerslide .itemslide a {
+  -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  width: 100%;
+}
+.ContainerProductosJuegos .containerslide .itemslide a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+.ContainerProductosJuegos .containerslide .itemslide a:active {
+  position: relative;
+  top: 1px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos .containerslide .itemslide a {
+    padding: 2px;
+    width: 80px;
+  }
+}
+
+.ContainerProductosJuegos2 .carousel span {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.ContainerProductosJuegos2 .carousel span:hover {
+  background-color: orange;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos2 .carousel span {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 250px;
+  }
+}
+.ContainerProductosJuegos2 .containerslide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  margin: 50px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos2 .containerslide {
+    gap: 10px;
+  }
+}
+.ContainerProductosJuegos2 .containerslide .itemslide {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos2 .containerslide .itemslide {
+    height: 200px;
+  }
+}
+.ContainerProductosJuegos2 .containerslide .itemslide img {
+  height: 100%;
+}
+.ContainerProductosJuegos2 .containerslide .itemslide p {
+  font-size: 24px;
+  color: red;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos2 .containerslide .itemslide p {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+.ContainerProductosJuegos2 .containerslide .itemslide a {
+  -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  width: 100%;
+}
+.ContainerProductosJuegos2 .containerslide .itemslide a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+.ContainerProductosJuegos2 .containerslide .itemslide a:active {
+  position: relative;
+  top: 1px;
+}
+@media screen and (max-width: 375px) {
+  .ContainerProductosJuegos2 .containerslide .itemslide a {
+    padding: 2px;
+    width: 80px;
+  }
 }
 
 .HomeContent {
