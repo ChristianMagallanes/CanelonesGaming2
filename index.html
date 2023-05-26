@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Canelones Gaming</title>
 </head>
@@ -39,7 +41,7 @@
 
             <a class="BtnHeader" href="#ActonHeader">Bienvenido!</a>
         </div>
-        <div class="HeaderGridimg">
+        <div data-aos="flip-left" class="HeaderGridimg">
             <img src="./assets/consolas/1Xbox-One-x.webp" alt="">
         </div>
 
@@ -48,7 +50,7 @@
             <p>Encuentra todo lo que desas</p>
             <a class="BtnHeader" href="#Informate">Informate un poco mas</a>
         </div>
-        <div id="ActonHeader"  class="HeaderGridimg1">
+        <div data-aos="flip-left" id="ActonHeader"  class="HeaderGridimg1">
             <img  src="./assets/recursos/gpudestacado.png" alt="">
         </div>
       </header>
@@ -57,12 +59,13 @@
       <!--===============HOME CONTENT==================-->
       <main>
         <!---===========CONTENIDO DEL HOME============-->
-        <section id="Informate" class="HomeContent">
+        <section data-aos="fade-up"
+        data-aos-duration="1000" id="Informate" class="HomeContent">
             <h2 class="HomeTitle">Puede q te interese</h2>
             <div class="Data1">
                
-                <div>
-                    <img src="./t1.png" alt="">
+                <div data-aos="flip-left">
+                    <img src="./assets/GiftCard/t1.png" alt="">
                 </div>
                 <div class="DivData">
                     <a href="">Comprar</a>
@@ -71,8 +74,8 @@
 
             <div class="Data2">
                 
-                <div>
-                    <img src="./t2.png" alt="">
+                <div data-aos="flip-left">
+                    <img src="./assets/GiftCard/t2.png" alt="">
                 </div>
                 <div class="DivData">
                    <a href="#">comprar</a>
@@ -81,8 +84,8 @@
 
             <div class="Data3">
                
-                <div>
-                    <img src="./t3.png" alt="">
+                <div data-aos="flip-left">
+                    <img src="./assets/GiftCard/t3.png" alt="">
                 </div>
                 <div class="DivData">
                    <a href="#">comprar</a>
@@ -90,8 +93,8 @@
             </div>
             <div class="Data4">
                 
-                <div>
-                    <img src="./t4.png" alt="">
+                <div data-aos="flip-left">
+                    <img src="./assets/GiftCard/t4.png" alt="">
                 </div>
                 <div class="DivData">
                     <a href="#">comprar</a>
@@ -101,7 +104,7 @@
 
         <section class="HomeContent2">
             <h2 class="HomeTitle2">¿Por que elejirnos?</h2>
-            <div class="Data5">
+            <div  class="Data5">
                <i class="fa-solid fa-check"><span>Amplia experiencia: Contamos con años de experiencia en el armado de PC, lo que nos ha permitido perfeccionar nuestras técnicas y ofrecer resultados confiables y de calidad.</span></i>
                <i class="fa-solid fa-check"><span>Personal altamente capacitado: Nuestro equipo está compuesto por expertos en hardware y software, capacitados para asesorar y brindar soluciones personalizadas según las necesidades de cada cliente.</span></i>
                <i class="fa-solid fa-check"><span>Calidad de los componentes: Utilizamos componentes de alta calidad y marcas reconocidas, asegurando un rendimiento óptimo y duradero de los equipos armados.</span></i>
@@ -114,11 +117,26 @@
       </main>
 
       <footer>
-        
+            <div data-aos="flip-left">
+                <p>instangram</p>
+                <img src="./assets/icon/instaico.png" alt="">
+            </div>
+            <div data-aos="flip-left">
+                <p>facebook</p>
+                <img src="./assets/icon/wppico.png" alt="">
+            </div>
+            <div data-aos="flip-left">
+                <p>whasap</p>
+                <img src="./assets/icon/facebookico.png" alt="">
+            </div>
       </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/b1ce65c049.js" crossorigin="anonymous"></script>
 </body>
 </html>
