@@ -987,25 +987,29 @@
     height: 100px;
   }
 }
-.HomeContent .Data1 .DivData p {
-  padding: 10px;
+.HomeContent .Data1 .DivData a {
+  padding: 20px;
   font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 1rem;
+  text-decoration: none;
 }
 @media screen and (max-width: 770px) {
-  .HomeContent .Data1 .DivData p {
+  .HomeContent .Data1 .DivData a {
     padding: 10px;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 378px) {
-  .HomeContent .Data1 .DivData p {
-    padding: 10px;
+  .HomeContent .Data1 .DivData a {
+    padding-top: 10px;
     font-size: 14px;
   }
 }
 .HomeContent .Data1 img {
-  padding: 20px;
   width: 100%;
+  padding: 20px;
 }
 @media screen and (max-width: 770px) {
   .HomeContent .Data1 img {
@@ -1016,6 +1020,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data1 img {
     padding: 0px;
+    margin-bottom: 6px;
     width: 100%;
   }
 }
@@ -1091,19 +1096,23 @@
     height: 100px;
   }
 }
-.HomeContent .Data2 .DivData p {
+.HomeContent .Data2 .DivData a {
   padding: 20px;
   font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 1rem;
+  text-decoration: none;
 }
 @media screen and (max-width: 770px) {
-  .HomeContent .Data2 .DivData p {
+  .HomeContent .Data2 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
 @media screen and (max-width: 378px) {
-  .HomeContent .Data2 .DivData p {
-    padding: 10px;
+  .HomeContent .Data2 .DivData a {
+    padding-top: 10px;
     font-size: 14px;
   }
 }
@@ -1120,6 +1129,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data2 img {
     padding: 0px;
+    margin-bottom: 6px;
     width: 100%;
   }
 }
@@ -1227,7 +1237,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data3 img {
     padding: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     width: 100%;
   }
 }
@@ -1303,19 +1313,23 @@
     background-color: #fff;
   }
 }
-.HomeContent .Data4 .DivData p {
+.HomeContent .Data4 .DivData a {
   padding: 20px;
   font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 1rem;
+  text-decoration: none;
 }
 @media screen and (max-width: 770px) {
-  .HomeContent .Data4 .DivData p {
+  .HomeContent .Data4 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
 @media screen and (max-width: 378px) {
-  .HomeContent .Data4 .DivData p {
-    padding: 10px;
+  .HomeContent .Data4 .DivData a {
+    padding-top: 10px;
     font-size: 14px;
   }
 }
@@ -1332,6 +1346,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data4 img {
     padding: 0px;
+    margin-bottom: 6px;
     width: 100%;
   }
 }
