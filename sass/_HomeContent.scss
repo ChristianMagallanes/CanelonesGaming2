@@ -219,7 +219,7 @@
         }
         @include mobile{
             margin: 10px;
-            height: 220px;
+            height: 240px;
             width: 150px;
             grid-column: 1/3;
             grid-row: 4/3;
@@ -260,7 +260,7 @@
                     font-size: 15px;
                 }
                 @include mobile{
-                    padding: 10px;
+                    padding-top: 10px;
                     font-size: 14px;
                 }
             }
@@ -275,6 +275,7 @@
             }
             @include mobile {
                 padding: 0px;
+                margin-bottom: 7px;
                 width: 100%;
             }
         }

@@ -1157,7 +1157,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data3 {
     margin: 10px;
-    height: 220px;
+    height: 240px;
     width: 150px;
     grid-column: 1/3;
     grid-row: 4/3;
@@ -1210,7 +1210,7 @@
 }
 @media screen and (max-width: 378px) {
   .HomeContent .Data3 .DivData a {
-    padding: 10px;
+    padding-top: 10px;
     font-size: 14px;
   }
 }
@@ -1227,6 +1227,7 @@
 @media screen and (max-width: 378px) {
   .HomeContent .Data3 img {
     padding: 0px;
+    margin-bottom: 7px;
     width: 100%;
   }
 }
