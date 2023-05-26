@@ -1,3 +1,6 @@
+
+/*  Header de la pagina de home */
+
 .HeaderGrid{
     display: grid;
     grid-template-columns: 4fr 1fr 2fr 2fr;
@@ -86,6 +89,7 @@
             }
         }
     }
+
     .HeaderGridinfo{
         text-align: center;
         margin-top: 30%;
@@ -151,8 +155,9 @@
             margin-bottom: 60px;
         }
         img{
-            width: 80%;
+            width: 60%;
             margin-top: 150px;
+            margin-left: 5rem;
             @include tablet{
                 margin-top: 190px;
                 width: 100%;
@@ -173,7 +178,7 @@
 
 
 
-
+/*  Header de la pagina de productos */
 
 
 .HeaderProductos{
@@ -203,13 +208,16 @@
     }
     
 }
-
+/*  Header de la pagina de juegos */
 .HeaderJuegos{
     margin-top: 90px;
     @include mobile{
         margin-top: 75px;
     }
 }
+
+/*  Header de la pagina de contacto */
 .HeaderContacto{
-    height: 50vh;
+    background-color: aqua;
+    height: 20vh;
 }

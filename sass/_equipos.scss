@@ -38,13 +38,30 @@
             font-size: 78px;
             font-family: 'Anton', sans-serif;
             @include mobile{
-                font-size: 24px;
+                font-size: 30px;
             }
         }
         p{
             font-size: 30px;
             @include mobile{
+                font-size: 18px;
+            }
+        }
+        a{
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #000;
+            padding: .5rem;
+            border-radius: 10px 0px 10px;
+            color: #fff;
+            @include mobile{
                 font-size: 15px;
+                
+            }
+            &:hover{
+                background-color: #fff;
+                color: #000;
+                cursor: pointer;
             }
         }
     }
@@ -88,13 +105,30 @@
             font-size: 78px;
             font-family: 'Anton', sans-serif;
             @include mobile{
-                font-size: 24px;
+                font-size: 30px;
             }
         }
         p{
             font-size: 30px;
             @include mobile{
+                font-size: 18px;
+            }
+        }
+        a{
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #000;
+            padding: .5rem;
+            border-radius: 10px 0px 10px;
+            color: #fff;
+            @include mobile{
                 font-size: 15px;
+                
+            }
+            &:hover{
+                background-color: #fff;
+                color: #000;
+                cursor: pointer;
             }
         }
     }
@@ -137,14 +171,31 @@
             font-size: 78px;
             font-family: 'Anton', sans-serif;
             @include mobile{
-                font-size: 20px;
-            }
-            }
-            p{
                 font-size: 30px;
-                @include mobile{
-                    font-size: 15px;
-                }
-                }
+            }
+        }
+        p{
+            font-size: 30px;
+            @include mobile{
+                font-size: 18px;
+            }
+        }
+        a{
+            text-decoration: none;
+            font-size: 24px;
+            background-color: #000;
+            padding: .5rem;
+            border-radius: 10px 0px 10px;
+            color: #fff;
+            @include mobile{
+                font-size: 15px;
+                
+            }
+            &:hover{
+                background-color: #fff;
+                color: #000;
+                cursor: pointer;
+            }
+        }
     }
 }
