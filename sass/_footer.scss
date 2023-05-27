@@ -1,25 +1,33 @@
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(247, 242, 242);
     height: 200px;
-    font-size: 24px;
+   
 
-    p {
-        color: #000000;
+    .ContentFooter{
+        background-color: rgba(255, 255, 255, 0.384);
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        box-shadow: 2px 3px 22px 0px rgba(0, 47, 255, 0.75);
 
-        @include mobile {
-            font-size: 18px;
+        @include mobile{
+            gap: 10px;
         }
-    }
-
-    img {
-        height: 80px;
-
-        @include mobile {
-            height: 50px;
+        
+        img {
+            height: 60px;
+            @include mobile {
+                height: 50px;
+            }
         }
+      
+       
     }
+   
+    
 }

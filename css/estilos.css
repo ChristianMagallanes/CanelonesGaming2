@@ -1918,26 +1918,36 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(247, 242, 242);
   height: 200px;
-  font-size: 24px;
 }
-footer p {
-  color: #000000;
+footer .ContentFooter {
+  background-color: rgba(255, 255, 255, 0.384);
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10rem;
+  -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 47, 255, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 47, 255, 0.75);
 }
 @media screen and (max-width: 480px) {
-  footer p {
-    font-size: 18px;
+  footer .ContentFooter {
+    gap: 10px;
   }
 }
-footer img {
-  height: 80px;
+footer .ContentFooter img {
+  height: 60px;
 }
 @media screen and (max-width: 480px) {
-  footer img {
+  footer .ContentFooter img {
     height: 50px;
   }
 }
