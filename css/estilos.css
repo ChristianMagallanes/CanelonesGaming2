@@ -2202,7 +2202,7 @@ footer img {
   height: 80px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 425px) {
   footer img {
     height: 50px;
   }
