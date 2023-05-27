@@ -883,7 +883,7 @@
   .HomeContent {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    height: 150vh;
+    height: 100vh;
     gap: 10px;
   }
 }
@@ -1402,7 +1402,7 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(4, 2fr);
-  height: 100vh;
+  height: 90vh;
 }
 @media screen and (min-width: 1200px) {
   .HomeContent2 {
