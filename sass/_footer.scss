@@ -1,4 +1,4 @@
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -6,15 +6,19 @@ footer{
     background-color: rgb(255, 255, 255);
     height: 200px;
     font-size: 24px;
-    p{
+
+    p {
         color: #000000;
-        @include mobile{
+
+        @include mobile {
             font-size: 18px;
         }
     }
-    img{
+
+    img {
         height: 80px;
-        @include mobile{
+
+        @include mobile {
             height: 50px;
         }
     }
