@@ -10,12 +10,14 @@
     @include desktop1{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
-        
+        height: 150vh;
         gap: 10px;
     }
+    
     @include tablet{
         grid-template-columns: repeat(3, 180px);
         grid-template-rows: repeat(5, 1fr);
+        padding-top: 140px;
         gap: 10px;
         height: 100vh;
     }
@@ -36,10 +38,11 @@
         @include desktop1{
             grid-column: 1/5;
         }
+      
         @include tablet{
             margin-top: 50px;
             grid-column: 2/4;
-            font-size: 30px;
+            font-size: 70px;
         }
         @include mobile{
             margin-top: 90px;
@@ -161,6 +164,7 @@
         @include desktop1{
             height: 25rem;
             width: 16rem;
+            margin-left: 3rem;
         }
         @include tablet{
             height: 100%;
@@ -452,10 +456,12 @@
         grid-row: 2/4;
         grid-column: 2/4;
         border-radius: 1rem;
+        overflow: auto;
         @include desktop1{
             grid-row: 2/7;
             grid-column: 2/4;
             margin-bottom: 3rem;
+            overflow: auto;
         }
         @include tablet{
             grid-row: 2/5;
@@ -485,6 +491,10 @@
             span{
                 margin-left: 10px;
                 font-size: 18px;
+                height: 100%;
+                @include desktop1{
+                    height: 100%;
+                }
                 @include tablet{
                     margin-left: 10px;
                     font-size: 15px;
