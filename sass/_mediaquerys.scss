@@ -1,11 +1,11 @@
-@mixin desktop {
+@mixin desktop1 {
     @media screen and (max-width: 1366px){
         @content;
     }
 }
 
 
-@mixin desktop {
+@mixin desktop2 {
     @media screen and (max-width: 1024px){
         @content;
     }

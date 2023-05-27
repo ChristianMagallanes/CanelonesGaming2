@@ -846,6 +846,7 @@
   font-weight: bold;
   padding: 8px 15px;
   text-decoration: none;
+  text-align: center;
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
@@ -874,6 +875,13 @@
   gap: 20px;
   height: 100vh;
 }
+@media screen and (max-width: 1366px) {
+  .HomeContent {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+  }
+}
 @media screen and (max-width: 770px) {
   .HomeContent {
     grid-template-columns: repeat(3, 180px);
@@ -896,6 +904,11 @@
   font-family: "Anton", sans-serif;
   color: #fff;
   margin-top: 15rem;
+}
+@media screen and (max-width: 1366px) {
+  .HomeContent .HomeTitle {
+    grid-column: 1/5;
+  }
 }
 @media screen and (max-width: 770px) {
   .HomeContent .HomeTitle {
@@ -938,6 +951,13 @@
   grid-row: 2/2;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 1366px) {
+  .HomeContent .Data1 {
+    height: 25rem;
+    width: 16rem;
+    margin-left: 3rem;
+  }
 }
 @media screen and (max-width: 770px) {
   .HomeContent .Data1 {
@@ -1048,6 +1068,12 @@
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 1366px) {
+  .HomeContent .Data2 {
+    height: 25rem;
+    width: 16rem;
+  }
+}
 @media screen and (max-width: 770px) {
   .HomeContent .Data2 {
     height: 100%;
@@ -1155,6 +1181,12 @@
   grid-row: 2/3;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 1366px) {
+  .HomeContent .Data3 {
+    height: 25rem;
+    width: 16rem;
+  }
 }
 @media screen and (max-width: 770px) {
   .HomeContent .Data3 {
@@ -1264,6 +1296,12 @@
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 1366px) {
+  .HomeContent .Data4 {
+    height: 25rem;
+    width: 16rem;
+  }
+}
 @media screen and (max-width: 770px) {
   .HomeContent .Data4 {
     margin: 10px;
@@ -1359,6 +1397,12 @@
   grid-template-rows: repeat(4, 2fr);
   height: 100vh;
 }
+@media screen and (max-width: 1366px) {
+  .HomeContent2 {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(6, 2fr);
+  }
+}
 @media screen and (max-width: 378px) {
   .HomeContent2 {
     margin-bottom: 150px;
@@ -1394,6 +1438,13 @@
   grid-row: 2/4;
   grid-column: 2/4;
   border-radius: 1rem;
+}
+@media screen and (max-width: 1366px) {
+  .HomeContent2 .Data5 {
+    grid-row: 2/7;
+    grid-column: 2/4;
+    margin-bottom: 3rem;
+  }
 }
 @media screen and (max-width: 770px) {
   .HomeContent2 .Data5 {
