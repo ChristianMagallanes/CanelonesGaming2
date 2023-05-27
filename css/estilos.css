@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-
 * {
   padding: 0;
   margin: 0;
   font-family: "Exo 2", sans-serif;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .BodyHome {
@@ -19,7 +18,7 @@
 
 .navbar {
   -webkit-box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
-  box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
+          box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
 }
 
 .navbar-collapse {
@@ -27,10 +26,9 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
 .navbar-collapse .nav-link {
   font-size: 20px;
   text-align: center;
@@ -39,7 +37,6 @@
   border-radius: 1rem;
   font-family: "Anton", sans-serif;
 }
-
 .navbar-collapse .nav-link:hover {
   color: #fff;
   background-color: #000;
@@ -52,29 +49,25 @@
   grid-template-rows: 4fr 2fr;
   height: 200vh;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid {
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr 2fr;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid {
     grid-template-columns: repeat(auto-fill, minmax(1rem, 1fr));
     grid-auto-rows: 18rem;
     height: 200vh;
   }
 }
-
 .HeaderGrid .HeaderGridBienvenida {
   text-align: center;
   margin-top: 30%;
   grid-column: 2/4;
   grid-row: 1/1;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridBienvenida {
     margin-top: 30%;
@@ -82,21 +75,18 @@
     grid-row: 1/1;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridBienvenida {
     grid-column: 1/25;
     grid-row: 1/2;
   }
 }
-
 .HeaderGrid .HeaderGridBienvenida h1 {
   margin-top: 180px;
   font-size: 84px;
   font-family: "Pacifico", cursive;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridBienvenida h1 {
     margin-bottom: 30px;
@@ -104,8 +94,7 @@
     font-size: 40px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridBienvenida h1 {
     margin-bottom: 20px;
     margin-top: 230px;
@@ -113,7 +102,6 @@
     margin-top: 340px;
   }
 }
-
 .HeaderGrid .HeaderGridBienvenida .BtnHeader {
   text-decoration: none;
   color: #000000;
@@ -122,13 +110,11 @@
   border-radius: 1rem;
   padding: 10px;
 }
-
 .HeaderGrid .HeaderGridimg {
   margin-top: 150px;
   grid-column: 1/1;
   grid-row: 1/2;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridimg {
     margin: 80px;
@@ -136,8 +122,7 @@
     grid-row: 1/2;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridimg {
     margin: 80px;
     grid-column: 1/3;
@@ -145,26 +130,22 @@
     margin-top: 200px;
   }
 }
-
 .HeaderGrid .HeaderGridimg img {
   width: 70%;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridimg img {
     margin-top: 90px;
     width: 150%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridimg img {
     margin-top: 30px;
     margin-left: 10%;
     width: 230px;
   }
 }
-
 .HeaderGrid .HeaderGridinfo {
   text-align: center;
   margin-top: 30%;
@@ -172,7 +153,6 @@
   grid-row: 2/2;
   margin-top: 300px;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridinfo {
     margin-top: 30%;
@@ -180,8 +160,7 @@
     grid-row: 2/2;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridinfo {
     margin-top: 30%;
     grid-column: 1/25;
@@ -189,44 +168,37 @@
     margin-top: 240px;
   }
 }
-
 .HeaderGrid .HeaderGridinfo h2 {
   font-size: 60px;
   font-family: "Anton", sans-serif;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridinfo h2 {
     margin-top: 120px;
     font-size: 50px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridinfo h2 {
     margin-top: 200px;
     font-size: 40px;
   }
 }
-
 .HeaderGrid .HeaderGridinfo p {
   font-size: 30px;
   color: #ffffff;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridinfo p {
     font-size: 20px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridinfo p {
     font-size: 20px;
   }
 }
-
 .HeaderGrid .HeaderGridinfo .BtnHeader {
   text-decoration: none;
   color: #000000;
@@ -235,13 +207,11 @@
   border-radius: 1rem;
   padding: 10px;
 }
-
 .HeaderGrid .HeaderGridimg1 {
   height: 100vh;
   grid-column: 1/1;
   grid-row: 2/3;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridimg1 {
     height: 100vh;
@@ -249,8 +219,7 @@
     grid-row: 2/3;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridimg1 {
     text-align: center;
     grid-column: 1/2;
@@ -259,21 +228,18 @@
     height: 40vh;
   }
 }
-
 .HeaderGrid .HeaderGridimg1 img {
   width: 60%;
   margin-top: 150px;
   margin-left: 5rem;
 }
-
 @media screen and (max-width: 768px) {
   .HeaderGrid .HeaderGridimg1 img {
     margin-top: 190px;
     width: 80%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderGrid .HeaderGridimg1 img {
     margin-left: 90px;
     width: 200px;
@@ -288,18 +254,17 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 35vh;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderProductos {
     background-repeat: no-repeat;
     background-size: 100%;
@@ -307,14 +272,12 @@
     margin-bottom: 30px;
   }
 }
-
 .HeaderProductos h1 {
   font-family: "Anton", sans-serif;
   font-size: 80px;
   color: rgb(255, 255, 255);
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderProductos h1 {
     margin-top: 90px;
     text-align: center;
@@ -327,8 +290,7 @@
 .HeaderJuegos {
   margin-top: 90px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HeaderJuegos {
     margin-top: 75px;
   }
@@ -343,92 +305,81 @@
 .ContainerProductos .carousel {
   width: 100%;
 }
-
 .ContainerProductos .carousel span {
   background-color: rgb(0, 0, 0);
   height: 50px;
   width: 50px;
   border-radius: 100%;
 }
-
 .ContainerProductos .carousel span:hover {
   background-color: orange;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos .carousel span {
     height: 30px;
     width: 30px;
     margin-bottom: 250px;
   }
 }
-
 .ContainerProductos .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 50px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos .containerslide {
     gap: 10px;
     margin: 20px;
   }
 }
-
 .ContainerProductos .containerslide .itemslide {
   height: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255, 253, 253);
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos .containerslide .itemslide {
     height: 200px;
   }
 }
-
 .ContainerProductos .containerslide .itemslide img {
   width: 100%;
 }
-
 .ContainerProductos .containerslide .itemslide p {
   font-size: 24px;
   color: red;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos .containerslide .itemslide p {
     font-size: 20px;
     margin: 0px;
   }
 }
-
 .ContainerProductos .containerslide .itemslide a {
   -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
-  box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
   background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color: #ffec64;
@@ -445,25 +396,21 @@
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
-
 .ContainerProductos .containerslide .itemslide a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
 }
-
 .ContainerProductos .containerslide .itemslide a:active {
   position: relative;
   top: 1px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos .containerslide .itemslide a {
     padding: 2px;
     width: 80px;
   }
 }
-
 .ContainerProductos .TitleMouse {
   font-family: "Anton", sans-serif;
   padding: 20px;
@@ -478,84 +425,74 @@
   width: 50px;
   border-radius: 100%;
 }
-
 .ContainerProductos2 .carousel span:hover {
   background-color: orange;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos2 .carousel span {
     height: 30px;
     width: 30px;
     margin-bottom: 250px;
   }
 }
-
 .ContainerProductos2 .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 50px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos2 .containerslide {
     gap: 10px;
   }
 }
-
 .ContainerProductos2 .containerslide .itemslide {
   height: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255, 253, 253);
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos2 .containerslide .itemslide {
     height: 200px;
   }
 }
-
 .ContainerProductos2 .containerslide .itemslide img {
   height: 100%;
 }
-
 .ContainerProductos2 .containerslide .itemslide p {
   font-size: 24px;
   color: red;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos2 .containerslide .itemslide p {
     font-size: 20px;
     margin: 0px;
   }
 }
-
 .ContainerProductos2 .containerslide .itemslide a {
   -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
-  box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
   background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color: #ffec64;
@@ -572,29 +509,24 @@
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
-
 .ContainerProductos2 .containerslide .itemslide a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
 }
-
 .ContainerProductos2 .containerslide .itemslide a:active {
   position: relative;
   top: 1px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos2 .containerslide .itemslide a {
     padding: 2px;
     width: 80px;
   }
 }
-
 .ContainerProductos2 .ProductosTeclados {
   height: 60vh;
 }
-
 .ContainerProductos2 .TitleTeclados {
   font-family: "Anton", sans-serif;
   padding: 20px;
@@ -608,83 +540,73 @@
   width: 50px;
   border-radius: 100%;
 }
-
 .ContainerProductos3 .carousel span:hover {
   background-color: orange;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos3 .carousel span {
     height: 30px;
     width: 30px;
     margin-bottom: 250px;
   }
 }
-
 .ContainerProductos3 .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 50px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos3 .containerslide {
     gap: 10px;
   }
 }
-
 .ContainerProductos3 .containerslide .itemslide {
   max-height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos3 .containerslide .itemslide {
     height: 200px;
   }
 }
-
 .ContainerProductos3 .containerslide .itemslide img {
   height: 100%;
 }
-
 .ContainerProductos3 .containerslide .itemslide p {
   font-size: 24px;
   color: red;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos3 .containerslide .itemslide p {
     font-size: 20px;
     margin: 0px;
   }
 }
-
 .ContainerProductos3 .containerslide .itemslide a {
   -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
-  box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
   background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color: #ffec64;
@@ -701,29 +623,24 @@
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
-
 .ContainerProductos3 .containerslide .itemslide a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
 }
-
 .ContainerProductos3 .containerslide .itemslide a:active {
   position: relative;
   top: 1px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductos3 .containerslide .itemslide a {
     padding: 2px;
     width: 80px;
   }
 }
-
 .ContainerProductos3 .ProductosAudifonos {
   height: 60vh;
 }
-
 .ContainerProductos3 .TitleAudifonos {
   font-family: "Anton", sans-serif;
   padding: 20px;
@@ -735,97 +652,85 @@
 .ContainerProductosJuegos {
   margin-top: 50px;
 }
-
 .ContainerProductosJuegos .carousel {
   width: 100%;
 }
-
 .ContainerProductosJuegos .carousel span {
   background-color: rgb(0, 0, 0);
   height: 50px;
   width: 50px;
   border-radius: 100%;
 }
-
 .ContainerProductosJuegos .carousel span:hover {
   background-color: orange;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos .carousel span {
     height: 30px;
     width: 30px;
     margin-bottom: 250px;
   }
 }
-
 .ContainerProductosJuegos .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 50px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos .containerslide {
     gap: 10px;
     margin: 20px;
   }
 }
-
 .ContainerProductosJuegos .containerslide .itemslide {
   height: 430px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255, 253, 253);
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos .containerslide .itemslide {
     height: 200px;
     width: 110px;
   }
 }
-
 .ContainerProductosJuegos .containerslide .itemslide img {
   width: 100%;
 }
-
 .ContainerProductosJuegos .containerslide .itemslide p {
   font-size: 24px;
   color: red;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos .containerslide .itemslide p {
     font-size: 20px;
     margin: 0px;
   }
 }
-
 .ContainerProductosJuegos .containerslide .itemslide a {
   -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
-  box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
   background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color: #ffec64;
@@ -842,19 +747,16 @@
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
-
 .ContainerProductosJuegos .containerslide .itemslide a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
 }
-
 .ContainerProductosJuegos .containerslide .itemslide a:active {
   position: relative;
   top: 1px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos .containerslide .itemslide a {
     padding: 2px;
     width: 80px;
@@ -867,84 +769,74 @@
   width: 50px;
   border-radius: 100%;
 }
-
 .ContainerProductosJuegos2 .carousel span:hover {
   background-color: orange;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos2 .carousel span {
     height: 30px;
     width: 30px;
     margin-bottom: 250px;
   }
 }
-
 .ContainerProductosJuegos2 .containerslide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 50px;
   margin: 50px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos2 .containerslide {
     gap: 10px;
   }
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide {
   height: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgb(255, 255, 255);
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos2 .containerslide .itemslide {
     height: 200px;
     width: 110px;
   }
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide img {
   height: 100%;
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide p {
   font-size: 24px;
   color: red;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos2 .containerslide .itemslide p {
     font-size: 20px;
     margin: 0px;
   }
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide a {
   -webkit-box-shadow: inset 0px 2px 0px 0px #fff6af;
-  box-shadow: inset 0px 2px 0px 0px #fff6af;
+          box-shadow: inset 0px 2px 0px 0px #fff6af;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
   background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
   background-color: #ffec64;
@@ -962,19 +854,16 @@
   text-shadow: 0px 1px 0px #ffee66;
   width: 100%;
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide a:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
   background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
   background-color: #ffab23;
 }
-
 .ContainerProductosJuegos2 .containerslide .itemslide a:active {
   position: relative;
   top: 1px;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerProductosJuegos2 .containerslide .itemslide a {
     padding: 2px;
     width: 80px;
@@ -990,7 +879,6 @@
   gap: 20px;
   height: 100vh;
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent {
     grid-template-columns: repeat(4, 1fr);
@@ -999,7 +887,6 @@
     gap: 10px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent {
     grid-template-columns: repeat(3, 180px);
@@ -1009,8 +896,7 @@
     height: 100vh;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -1018,7 +904,6 @@
     margin-top: 0px;
   }
 }
-
 .HomeContent .HomeTitle {
   grid-column: 2/4;
   grid-row: 1/2;
@@ -1027,13 +912,11 @@
   color: #fff;
   margin-top: 15rem;
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent .HomeTitle {
     grid-column: 1/5;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .HomeTitle {
     margin-top: 50px;
@@ -1041,8 +924,7 @@
     font-size: 70px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .HomeTitle {
     margin-top: 90px;
     grid-column: 1/3;
@@ -1050,21 +932,20 @@
     font-size: 30px;
   }
 }
-
 .HomeContent .Data1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-color: rgb(253, 253, 253);
   border-radius: 10px;
@@ -1075,9 +956,8 @@
   grid-column: 1/1;
   grid-row: 2/2;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent .Data1 {
     height: 25rem;
@@ -1085,7 +965,6 @@
     margin-left: 3rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data1 {
     grid-column: 2/2;
@@ -1095,8 +974,7 @@
     margin: 10px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data1 {
     grid-column: 2/2;
     grid-row: 2/2;
@@ -1105,44 +983,37 @@
     width: 150px;
   }
 }
-
 .HomeContent .Data1 h2 {
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data1 h2 {
     font-size: 15px;
     margin-bottom: 0px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data1 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
 .HomeContent .Data1 .DivData {
   width: 100%;
   height: 100px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data1 .DivData {
     width: 100%;
     height: 60px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data1 .DivData {
     width: 100%;
     height: 100px;
   }
 }
-
 .HomeContent .Data1 .DivData a {
   padding: 20px;
   font-size: 20px;
@@ -1151,52 +1022,46 @@
   border-radius: 1rem;
   text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data1 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data1 .DivData a {
     padding-top: 10px;
     font-size: 14px;
   }
 }
-
 .HomeContent .Data1 img {
   width: 100%;
   padding: 20px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data1 img {
     padding: 0px;
     width: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data1 img {
     padding: 0px;
     margin-bottom: 6px;
     width: 100%;
   }
 }
-
 .HomeContent .Data2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -1207,9 +1072,8 @@
   grid-column: 2/2;
   grid-row: 2/2;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent .Data2 {
     height: 25rem;
@@ -1217,7 +1081,6 @@
     margin-left: 3rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data2 {
     height: 100%;
@@ -1227,8 +1090,7 @@
     margin: 10px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data2 {
     margin: 10px;
     height: 200px;
@@ -1237,44 +1099,37 @@
     grid-row: 2/2;
   }
 }
-
 .HomeContent .Data2 h2 {
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data2 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data2 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
 .HomeContent .Data2 .DivData {
   width: 100%;
   height: 100px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data2 .DivData {
     width: 100%;
     height: 60px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data2 .DivData {
     width: 100%;
     height: 100px;
   }
 }
-
 .HomeContent .Data2 .DivData a {
   padding: 20px;
   font-size: 20px;
@@ -1283,52 +1138,46 @@
   border-radius: 1rem;
   text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data2 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data2 .DivData a {
     padding-top: 10px;
     font-size: 14px;
   }
 }
-
 .HomeContent .Data2 img {
   width: 100%;
   padding: 20px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data2 img {
     padding: 0px;
     width: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data2 img {
     padding: 0px;
     margin-bottom: 6px;
     width: 100%;
   }
 }
-
 .HomeContent .Data3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -1338,16 +1187,14 @@
   grid-column: 3/3;
   grid-row: 2/3;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent .Data3 {
     height: 25rem;
     width: 16rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data3 {
     margin: 10px;
@@ -1357,8 +1204,7 @@
     grid-row: 3/3;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data3 {
     margin: 10px;
     height: 200px;
@@ -1367,44 +1213,37 @@
     grid-row: 4/3;
   }
 }
-
 .HomeContent .Data3 h2 {
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data3 h2 {
     font: 20px;
     margin-bottom: 20px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data3 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
 .HomeContent .Data3 .DivData {
   width: 100%;
   height: 100px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data3 .DivData {
     width: 100%;
     height: 100px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data3 .DivData {
     width: 100%;
     height: 60px;
   }
 }
-
 .HomeContent .Data3 .DivData a {
   padding: 20px;
   font-size: 20px;
@@ -1413,52 +1252,46 @@
   border-radius: 1rem;
   text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data3 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data3 .DivData a {
     padding-top: 10px;
     font-size: 14px;
   }
 }
-
 .HomeContent .Data3 img {
   width: 100%;
   padding: 20px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data3 img {
     padding: 0px;
     width: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data3 img {
     padding: 0px;
     margin-bottom: 6px;
     width: 100%;
   }
 }
-
 .HomeContent .Data4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
@@ -1468,16 +1301,14 @@
   grid-column: 4/4;
   grid-row: 2/3;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent .Data4 {
     height: 25rem;
     width: 16rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data4 {
     margin: 10px;
@@ -1487,8 +1318,7 @@
     grid-row: 3/3;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data4 {
     margin: 10px;
     height: 200px;
@@ -1498,45 +1328,38 @@
     grid-row: 3/3;
   }
 }
-
 .HomeContent .Data4 h2 {
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data4 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data4 h2 {
     font-size: 20px;
     margin-bottom: 20px;
   }
 }
-
 .HomeContent .Data4 .DivData {
   width: 100%;
   height: 100px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data4 .DivData {
     width: 100%;
     height: 100px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data4 .DivData {
     width: 100%;
     height: 60px;
     background-color: #fff;
   }
 }
-
 .HomeContent .Data4 .DivData a {
   padding: 20px;
   font-size: 20px;
@@ -1545,34 +1368,29 @@
   border-radius: 1rem;
   text-decoration: none;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data4 .DivData a {
     padding: 10px;
     font-size: 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data4 .DivData a {
     padding-top: 10px;
     font-size: 14px;
   }
 }
-
 .HomeContent .Data4 img {
   width: 100%;
   padding: 20px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent .Data4 img {
     padding: 0px;
     width: 100%;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent .Data4 img {
     padding: 0px;
     margin-bottom: 6px;
@@ -1586,20 +1404,17 @@
   grid-template-rows: repeat(4, 2fr);
   height: 90vh;
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent2 {
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(6, 2fr);
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent2 {
     margin-bottom: 150px;
   }
 }
-
 .HomeContent2 .HomeTitle2 {
   color: #ffffff;
   text-align: center;
@@ -1609,7 +1424,6 @@
   font-family: "Anton", sans-serif;
   margin-top: 10rem;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent2 .HomeTitle2 {
     font-size: 50px;
@@ -1618,8 +1432,7 @@
     margin-top: 50px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent2 .HomeTitle2 {
     font-size: 30px;
     grid-column: 1/5;
@@ -1627,7 +1440,6 @@
     margin-top: 100px;
   }
 }
-
 .HomeContent2 .Data5 {
   background-color: #f3f3f3;
   grid-row: 2/4;
@@ -1635,7 +1447,6 @@
   border-radius: 1rem;
   overflow: auto;
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent2 .Data5 {
     grid-row: 2/7;
@@ -1644,7 +1455,6 @@
     overflow: auto;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent2 .Data5 {
     grid-row: 2/5;
@@ -1652,23 +1462,20 @@
     border-radius: 1rem;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent2 .Data5 {
     grid-row: 2/2;
     grid-column: 1/5;
     height: 590px;
     -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   }
 }
-
 .HomeContent2 .Data5 .fa-check {
   margin: 10px;
   margin-top: 16px;
   font-size: 24px;
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent2 .Data5 .fa-check {
     margin: 10px;
@@ -1676,35 +1483,30 @@
     font-size: 24px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent2 .Data5 .fa-check {
     margin: 10px;
     margin-top: 16px;
     font-size: 20px;
   }
 }
-
 .HomeContent2 .Data5 .fa-check span {
   margin-left: 10px;
   font-size: 18px;
   height: 100%;
 }
-
 @media screen and (min-width: 1200px) {
   .HomeContent2 .Data5 .fa-check span {
     height: 100%;
   }
 }
-
 @media screen and (max-width: 768px) {
   .HomeContent2 .Data5 .fa-check span {
     margin-left: 10px;
     font-size: 15px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .HomeContent2 .Data5 .fa-check span {
     margin-left: 10px;
     font-size: 12px;
@@ -1717,7 +1519,6 @@
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(3, 2fr);
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 {
     grid-template-columns: repeat(2, 1fr);
@@ -1725,59 +1526,50 @@
     height: 50vh;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 50vh;
   }
 }
-
 .ContainerEquipo1 .Equipo1 {
   grid-column: 4/4;
   grid-row: 1/4;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 .Equipo1 {
     grid-column: 4/4;
     grid-row: 1/2;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Equipo1 {
     grid-column: 2/3;
     grid-row: 1/2;
   }
 }
-
 .ContainerEquipo1 .Equipo1 .Equipo {
   margin-top: 70px;
   height: 700px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 .Equipo1 .Equipo {
     margin-top: 70px;
     height: 400px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Equipo1 .Equipo {
     margin-top: 140px;
     height: 200px;
   }
 }
-
 .ContainerEquipo1 .Caracteristicas {
   text-align: center;
   grid-column: 2/4;
   grid-row: 2/2;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 .Caracteristicas {
     margin-top: 150px;
@@ -1786,8 +1578,7 @@
     grid-row: 1/2;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Caracteristicas {
     margin-top: 150px;
     text-align: center;
@@ -1795,40 +1586,33 @@
     grid-row: 1/2;
   }
 }
-
 .ContainerEquipo1 .Caracteristicas h2 {
   font-size: 78px;
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 .Caracteristicas h2 {
     font-size: 48px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Caracteristicas h2 {
     font-size: 30px;
   }
 }
-
 .ContainerEquipo1 .Caracteristicas p {
   font-size: 30px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo1 .Caracteristicas p {
     font-size: 24px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Caracteristicas p {
     font-size: 18px;
   }
 }
-
 .ContainerEquipo1 .Caracteristicas a {
   text-decoration: none;
   font-size: 24px;
@@ -1837,13 +1621,11 @@
   border-radius: 10px 0px 10px;
   color: #fff;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo1 .Caracteristicas a {
     font-size: 15px;
   }
 }
-
 .ContainerEquipo1 .Caracteristicas a:hover {
   background-color: #fff;
   color: #000;
@@ -1856,7 +1638,6 @@
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(3, 2fr);
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 {
     grid-template-columns: repeat(2, 1fr);
@@ -1864,59 +1645,50 @@
     height: 60vh;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 60vh;
   }
 }
-
 .ContainerEquipo2 .Equipo2 {
   grid-column: 1/1;
   grid-row: 1/4;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 .Equipo2 {
     grid-column: 1/1;
     grid-row: 1/4;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Equipo2 {
     grid-column: 1/1;
     grid-row: 1/4;
   }
 }
-
 .ContainerEquipo2 .Equipo2 .Equipo {
   margin-top: 70px;
   height: 700px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 .Equipo2 .Equipo {
     margin-top: 70px;
     height: 400px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Equipo2 .Equipo {
     margin-top: 150px;
     height: 180px;
   }
 }
-
 .ContainerEquipo2 .Caracteristicas2 {
   text-align: center;
   grid-column: 2/4;
   grid-row: 2/2;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 .Caracteristicas2 {
     text-align: center;
@@ -1925,48 +1697,40 @@
     margin-top: 150px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Caracteristicas2 {
     grid-column: 2/4;
     grid-row: 1/2;
     margin-top: 150px;
   }
 }
-
 .ContainerEquipo2 .Caracteristicas2 h2 {
   font-size: 78px;
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 .Caracteristicas2 h2 {
     font-size: 38px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Caracteristicas2 h2 {
     font-size: 30px;
   }
 }
-
 .ContainerEquipo2 .Caracteristicas2 p {
   font-size: 30px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo2 .Caracteristicas2 p {
     font-size: 24px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Caracteristicas2 p {
     font-size: 18px;
   }
 }
-
 .ContainerEquipo2 .Caracteristicas2 a {
   text-decoration: none;
   font-size: 24px;
@@ -1975,13 +1739,11 @@
   border-radius: 10px 0px 10px;
   color: #fff;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo2 .Caracteristicas2 a {
     font-size: 15px;
   }
 }
-
 .ContainerEquipo2 .Caracteristicas2 a:hover {
   background-color: #fff;
   color: #000;
@@ -1994,7 +1756,6 @@
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(3, 2fr);
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 {
     grid-template-columns: repeat(2, 1fr);
@@ -2002,58 +1763,49 @@
     height: 60vh;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 60vh;
   }
 }
-
 .ContainerEquipo3 .Equipo3 {
   grid-column: 4/4;
   grid-row: 1/4;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 .Equipo3 {
     grid-column: 3/3;
     grid-row: 1/4;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Equipo3 {
     grid-column: 3/3;
     grid-row: 1/4;
   }
 }
-
 .ContainerEquipo3 .Equipo3 .Equipo {
   margin-top: 70px;
   height: 700px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 .Equipo3 .Equipo {
     height: 400px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Equipo3 .Equipo {
     margin-top: 10px;
     height: 200px;
   }
 }
-
 .ContainerEquipo3 .Caracteristicas3 {
   text-align: center;
   grid-column: 2/4;
   grid-row: 2/2;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 .Caracteristicas3 {
     text-align: center;
@@ -2062,48 +1814,40 @@
     margin-top: 150px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Caracteristicas3 {
     grid-column: 1/3;
     grid-row: 1/1;
     margin-top: 50px;
   }
 }
-
 .ContainerEquipo3 .Caracteristicas3 h2 {
   font-size: 78px;
   font-family: "Anton", sans-serif;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 .Caracteristicas3 h2 {
     font-size: 38px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Caracteristicas3 h2 {
     font-size: 30px;
   }
 }
-
 .ContainerEquipo3 .Caracteristicas3 p {
   font-size: 30px;
 }
-
 @media screen and (max-width: 768px) {
   .ContainerEquipo3 .Caracteristicas3 p {
     font-size: 24px;
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Caracteristicas3 p {
     font-size: 18px;
   }
 }
-
 .ContainerEquipo3 .Caracteristicas3 a {
   text-decoration: none;
   font-size: 24px;
@@ -2112,13 +1856,11 @@
   border-radius: 10px 0px 10px;
   color: #fff;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .ContainerEquipo3 .Caracteristicas3 a {
     font-size: 15px;
   }
 }
-
 .ContainerEquipo3 .Caracteristicas3 a:hover {
   background-color: #fff;
   color: #000;
@@ -2130,11 +1872,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
 }
 
@@ -2144,16 +1886,13 @@ form {
   height: 100%;
   padding: 20px;
 }
-
 form h2 {
   text-align: center;
 }
-
 form label {
   display: block;
   margin-bottom: 10px;
 }
-
 form input[type=text],
 form input[type=email],
 form textarea {
@@ -2163,7 +1902,6 @@ form textarea {
   border-radius: 4px;
   margin-bottom: 10px;
 }
-
 form input[type=submit] {
   background-color: #008000;
   color: #fff;
@@ -2178,31 +1916,27 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   text-align: center;
   background-color: rgb(255, 255, 255);
   height: 200px;
   font-size: 24px;
 }
-
 footer p {
   color: #000000;
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   footer p {
     font-size: 18px;
   }
 }
-
 footer img {
   height: 80px;
 }
-
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 480px) {
   footer img {
     height: 50px;
   }
