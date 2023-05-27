@@ -1,20 +1,16 @@
 @mixin desktop1 {
-    @media screen and (min-width: 1366px){
+    @media screen and (min-width: 1280px){
         @content;
     }
 }
 
 
-@mixin desktop2 {
-    @media screen and (max-width: 1024px){
-        @content;
-    }
-}
+
 
 
 
 @mixin tablet {
-    @media screen and (min-width: 770px){
+    @media screen and (max-width: 800px){
         @content;
     }
 }
