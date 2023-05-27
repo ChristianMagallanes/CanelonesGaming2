@@ -1,5 +1,5 @@
 @mixin desktop1 {
-    @media screen and (max-width: 1366px){
+    @media screen and (min-width: 1366px){
         @content;
     }
 }
@@ -14,7 +14,7 @@
 
 
 @mixin tablet {
-    @media screen and (max-width: 770px){
+    @media screen and (min-width: 770px){
         @content;
     }
 }
@@ -22,7 +22,7 @@
 
 
 @mixin mobile {
-    @media screen and (max-width: 378px){
+    @media screen and (max-width:420px){
         @content;
     }
 }
