@@ -129,11 +129,13 @@
             @include tablet {
                 margin-top: 120px;
                 font-size: 50px;
+                font-family: 'Anton', sans-serif;
             }
 
             @include mobile {
                 margin-top: 200px;
                 font-size: 40px;
+                font-family: 'Anton', sans-serif;
             }
         }
 
