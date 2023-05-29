@@ -1934,7 +1934,7 @@ footer .ContentFooter {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10rem;
+  gap: 8rem;
   -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 47, 255, 0.75);
           box-shadow: 2px 3px 22px 0px rgba(0, 47, 255, 0.75);
 }
