@@ -17,9 +17,7 @@
         margin: 5px;
         border-radius: 1rem;
         font-family: 'Anton', sans-serif;
-        @include mobile{
-            font-family: 'Anton', sans-serif;
-        }
+        
 
         &:hover {
             color: #fff;
