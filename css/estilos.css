@@ -151,7 +151,6 @@
   margin-top: 30%;
   grid-column: 2/4;
   grid-row: 2/2;
-  margin-top: 300px;
 }
 @media screen and (max-width: 800px) {
   .HeaderGrid .HeaderGridinfo {
@@ -876,10 +875,10 @@
 .HomeTitle {
   grid-column: 2/4;
   grid-row: 1/2;
-  font-size: 60px;
+  font-size: 100px;
   font-family: "Anton", sans-serif;
   color: #fff;
-  margin-top: 15rem;
+  padding-top: 10rem;
   text-align: center;
 }
 @media screen and (max-width: 1553px) {
@@ -901,7 +900,7 @@
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(4, 2fr);
   text-align: center;
-  gap: 20px;
+  gap: 10px;
   height: 100vh;
 }
 @media screen and (max-width: 1553px) {
@@ -1430,7 +1429,7 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(4, 2fr);
-  height: 90vh;
+  height: 100vh;
 }
 @media screen and (max-width: 1553px) {
   .HomeContent2 {
