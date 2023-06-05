@@ -900,7 +900,6 @@
   grid-template-rows: repeat(4, 2fr);
   text-align: center;
   gap: 10px;
-  height: 100vh;
 }
 @media screen and (max-width: 1553px) {
   .HomeContent {
@@ -923,7 +922,6 @@
     grid-template-rows: repeat(5, 1fr);
     padding-top: 140px;
     gap: 10px;
-    height: 100vh;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1057,7 +1055,7 @@
   .HomeContent .Data1 img {
     padding: 5px;
     margin-bottom: 6px;
-    width: 80%;
+    width: 90%;
   }
 }
 .HomeContent .Data2 {
@@ -1430,7 +1428,7 @@
   .HomeContent .Data4 img {
     padding: 5px;
     margin-bottom: 6px;
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -1438,7 +1436,6 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(4, 2fr);
-  height: 100vh;
 }
 @media screen and (max-width: 1553px) {
   .HomeContent2 {

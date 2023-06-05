@@ -29,7 +29,7 @@
     grid-template-rows: repeat(4, 2fr);
     text-align: center;
     gap: 10px;
-    height: 100vh;
+    
    
 
     @include desktop1 {
@@ -44,7 +44,7 @@
         grid-template-rows: repeat(5, 1fr);
         padding-top: 140px;
         gap: 10px;
-        height: 100vh;
+        
     }
 
     @include mobile {
@@ -159,7 +159,7 @@
             @include mobile {
                 padding: 5px;
                 margin-bottom: 6px;
-                width: 80%;
+                width: 90%;
             }
         }
     }
@@ -484,7 +484,7 @@
             @include mobile {
                 padding: 5px;
                 margin-bottom: 6px;
-                width: 80%;
+                width: 100%;
             }
         }
     }
@@ -494,7 +494,7 @@
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(4, 2fr);
-    height: 100vh;
+    
     
 
     @include desktop1 {
