@@ -1454,7 +1454,7 @@
 }
 @media screen and (max-width: 480px) {
   .HomeContent2 {
-    margin-bottom: 150px;
+    padding-top: 0;
   }
 }
 .HomeContent2 .HomeTitle2 {
