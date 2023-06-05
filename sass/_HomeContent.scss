@@ -495,19 +495,14 @@
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(4, 2fr);
     
-    
-
-    @include desktop1 {
-        grid-template-columns: repeat(4, 2fr);
-        grid-template-rows: repeat(6, 2fr);
-        
-    }
     @include tablet{
         padding-top: 150px;
     }
 
     @include mobile {
        padding-top: 0;
+       height: 800px;
+       
 
     }
 
@@ -543,9 +538,9 @@
         overflow: auto;
 
         @include desktop1 {
-            grid-row: 2/7;
-            grid-column: 2/4;
+            
             margin-bottom: 3rem;
+            
             overflow: auto;
         }
 

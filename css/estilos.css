@@ -1437,12 +1437,6 @@
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(4, 2fr);
 }
-@media screen and (max-width: 1553px) {
-  .HomeContent2 {
-    grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: repeat(6, 2fr);
-  }
-}
 @media screen and (max-width: 800px) {
   .HomeContent2 {
     padding-top: 150px;
@@ -1451,6 +1445,7 @@
 @media screen and (max-width: 480px) {
   .HomeContent2 {
     padding-top: 0;
+    height: 800px;
   }
 }
 .HomeContent2 .HomeTitle2 {
@@ -1486,8 +1481,6 @@
 }
 @media screen and (max-width: 1553px) {
   .HomeContent2 .Data5 {
-    grid-row: 2/7;
-    grid-column: 2/4;
     margin-bottom: 3rem;
     overflow: auto;
   }
