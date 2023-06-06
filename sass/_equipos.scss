@@ -3,17 +3,17 @@
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(3, 2fr);
-
+   
     @include tablet {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        height: 50vh;
+       
     }
 
     @include mobile {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        height: 50vh;
+        
     }
 
     .Equipo1 {
@@ -33,7 +33,9 @@
         .Equipo {
             margin-top: 70px;
             height: 700px;
-
+            @include desktop1{
+                height: 500px;
+            }
             @include tablet {
                 margin-top: 70px;
                 height: 400px;
@@ -50,7 +52,7 @@
         text-align: center;
         grid-column: 2/4;
         grid-row: 2/2;
-
+       
         @include tablet {
             margin-top: 150px;
             text-align: center;
@@ -68,7 +70,9 @@
         h2 {
             font-size: 78px;
             font-family: 'Anton', sans-serif;
-
+            @include desktop1{
+            font-size: 70px;
+            }
             @include tablet {
                 font-size: 48px;
             }
@@ -133,7 +137,7 @@
     .Equipo2 {
         grid-column: 1/1;
         grid-row: 1/4;
-
+        
         @include tablet {
             grid-column: 1/1;
             grid-row: 1/4;
@@ -147,7 +151,9 @@
         .Equipo {
             margin-top: 70px;
             height: 700px;
-
+            @include desktop1{
+                height: 500px;
+            }
             @include tablet {
                 margin-top: 70px;
                 height: 400px;
@@ -260,7 +266,9 @@
         .Equipo {
             margin-top: 70px;
             height: 700px;
-
+            @include desktop1{
+                height: 500px;
+            }
             @include tablet {
                 height: 400px;
             }

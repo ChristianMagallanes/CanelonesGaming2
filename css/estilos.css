@@ -21,25 +21,17 @@
           box-shadow: 2px 10px 11px -4px rgba(0, 0, 0, 0.57);
 }
 
-.navbar-collapse {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 .navbar-collapse .nav-link {
   font-size: 20px;
-  text-align: center;
   color: #000000;
-  margin: 5px;
   border-radius: 1rem;
   font-family: "Anton", sans-serif;
+  margin-top: 15px;
 }
 .navbar-collapse .nav-link:hover {
   color: #fff;
   background-color: #000;
+  border-radius: 5px 0px 5px 0px;
 }
 
 /*  Header de la pagina de home */
@@ -278,6 +270,11 @@
   font-size: 80px;
   color: rgb(255, 255, 255);
 }
+@media screen and (max-width: 800px) {
+  .HeaderProductos h1 {
+    font-size: 60px;
+  }
+}
 @media screen and (max-width: 480px) {
   .HeaderProductos h1 {
     margin-top: 90px;
@@ -314,6 +311,11 @@
 }
 .ContainerProductos .carousel span:hover {
   background-color: orange;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductos .carousel span {
+    margin-bottom: 550px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductos .carousel span {
@@ -359,6 +361,11 @@
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductos .containerslide .itemslide {
+    height: 320px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductos .containerslide .itemslide {
@@ -428,6 +435,11 @@
 }
 .ContainerProductos2 .carousel span:hover {
   background-color: orange;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductos2 .carousel span {
+    margin-bottom: 550px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductos2 .carousel span {
@@ -543,6 +555,11 @@
 }
 .ContainerProductos3 .carousel span:hover {
   background-color: orange;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductos3 .carousel span {
+    margin-bottom: 550px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductos3 .carousel span {
@@ -662,6 +679,11 @@
   width: 50px;
   border-radius: 100%;
 }
+@media screen and (max-width: 800px) {
+  .ContainerProductosJuegos .carousel span {
+    margin-bottom: 450px;
+  }
+}
 .ContainerProductosJuegos .carousel span:hover {
   background-color: orange;
 }
@@ -709,6 +731,11 @@
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductosJuegos .containerslide .itemslide {
+    height: 350px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductosJuegos .containerslide .itemslide {
@@ -773,6 +800,11 @@
 .ContainerProductosJuegos2 .carousel span:hover {
   background-color: orange;
 }
+@media screen and (max-width: 800px) {
+  .ContainerProductosJuegos2 .carousel span {
+    margin-bottom: 420px;
+  }
+}
 @media screen and (max-width: 480px) {
   .ContainerProductosJuegos2 .carousel span {
     height: 30px;
@@ -815,6 +847,11 @@
           box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.75);
   padding: 15px;
   border-radius: 20px;
+}
+@media screen and (max-width: 800px) {
+  .ContainerProductosJuegos2 .containerslide .itemslide {
+    height: 350px;
+  }
 }
 @media screen and (max-width: 480px) {
   .ContainerProductosJuegos2 .containerslide .itemslide {
@@ -1554,14 +1591,12 @@
   .ContainerEquipo1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 50vh;
   }
 }
 @media screen and (max-width: 480px) {
   .ContainerEquipo1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 50vh;
   }
 }
 .ContainerEquipo1 .Equipo1 {
@@ -1583,6 +1618,11 @@
 .ContainerEquipo1 .Equipo1 .Equipo {
   margin-top: 70px;
   height: 700px;
+}
+@media screen and (max-width: 1553px) {
+  .ContainerEquipo1 .Equipo1 .Equipo {
+    height: 500px;
+  }
 }
 @media screen and (max-width: 800px) {
   .ContainerEquipo1 .Equipo1 .Equipo {
@@ -1620,6 +1660,11 @@
 .ContainerEquipo1 .Caracteristicas h2 {
   font-size: 78px;
   font-family: "Anton", sans-serif;
+}
+@media screen and (max-width: 1553px) {
+  .ContainerEquipo1 .Caracteristicas h2 {
+    font-size: 70px;
+  }
 }
 @media screen and (max-width: 800px) {
   .ContainerEquipo1 .Caracteristicas h2 {
@@ -1702,6 +1747,11 @@
 .ContainerEquipo2 .Equipo2 .Equipo {
   margin-top: 70px;
   height: 700px;
+}
+@media screen and (max-width: 1553px) {
+  .ContainerEquipo2 .Equipo2 .Equipo {
+    height: 500px;
+  }
 }
 @media screen and (max-width: 800px) {
   .ContainerEquipo2 .Equipo2 .Equipo {
@@ -1821,6 +1871,11 @@
   margin-top: 70px;
   height: 700px;
 }
+@media screen and (max-width: 1553px) {
+  .ContainerEquipo3 .Equipo3 .Equipo {
+    height: 500px;
+  }
+}
 @media screen and (max-width: 800px) {
   .ContainerEquipo3 .Equipo3 .Equipo {
     height: 400px;
@@ -1912,9 +1967,19 @@
 }
 
 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #f2f2f2;
   width: 70%;
-  height: 100%;
+  height: 700px;
   padding: 20px;
 }
 form h2 {
